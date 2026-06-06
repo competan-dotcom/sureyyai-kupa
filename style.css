@@ -421,3 +421,15 @@ body {
     font-size: 14px;
     font-weight: 600;
 }
+
+.mockup-table { width: 100%; border-collapse: separate; border-spacing: 0; background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.04); margin-top: 16px; }
+.mockup-table th { background: #f1f5f9; color: #475569; font-size: 12px; font-weight: 700; text-transform: uppercase; padding: 12px; text-align: left; }
+.mockup-table td { padding: 16px 12px; font-size: 14px; font-weight: 600; border-bottom: 1px solid #f1f5f9; }
+.mockup-table tr:last-child td { border-bottom: none; }
+.mockup-table .team-cell { display: flex; align-items: center; gap: 8px; }
+.mockup-stat-card { background: white; border-radius: 16px; padding: 16px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); }
+.mockup-stat-left { display: flex; align-items: center; gap: 12px; }
+.mockup-stat-rank { font-size: 20px; font-weight: 800; color: #cbd5e1; }
+.mockup-stat-info h4 { margin: 0 0 4px 0; font-size: 15px; }
+.mockup-stat-info p { margin: 0; font-size: 12px; color: #64748b; }
+.mockup-stat-value { font-size: 24px; font-weight: 800; color: var(--accent); }
