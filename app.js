@@ -176,11 +176,21 @@ function createMatchCard(match) {
         `;
     }
 
+    let footerContent = '';
+    if (match.stadium) {
+        footerContent = `
+        <div class="match-footer">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; flex-shrink: 0;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            ${match.stadium}
+        </div>
+        `;
+    }
+
     card.innerHTML = `
         <div class="match-header">
             <span class="match-group">${match.group}</span>
             <span class="match-tv">
-                <svg class="tv-watermark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12A10 10 0 0 0 12 22a10 10 0 0 0 10-10A10 10 0 0 0 12 2a10 10 0 0 0-10 10z"></path><polygon points="10 8 16 12 10 16 10 8" fill="currentColor"></polygon></svg>
+                <svg class="tv-watermark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
                 <span class="tv-text">${match.broadcaster}</span>
             </span>
         </div>
@@ -197,10 +207,7 @@ function createMatchCard(match) {
                 <span class="team-name">${match.team2.name}</span>
             </div>
         </div>
-        <div class="match-footer">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; flex-shrink: 0;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-            ${match.stadium}
-        </div>
+        ${footerContent}
     `;
 
     return card;

@@ -12,8 +12,8 @@
                 "flag": "🇿🇦"
             },
             "group": "A Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor",
+            "stadium": "",
+            "broadcaster": "TOD TV",
             "score": "0 - 1",
             "status": "finished"
         },
@@ -29,7 +29,7 @@
                 "flag": "🇨🇿"
             },
             "group": "A Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor",
             "score": "2 - 1",
             "status": "finished"
@@ -46,7 +46,7 @@
                 "flag": "🇧🇦"
             },
             "group": "B Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor",
             "score": "0 - 0",
             "status": "finished"
@@ -63,8 +63,8 @@
                 "flag": "🇵🇾"
             },
             "group": "D Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor",
+            "stadium": "",
+            "broadcaster": "TRT 1",
             "score": "1 - 2",
             "status": "finished"
         },
@@ -80,7 +80,7 @@
                 "flag": "🇨🇭"
             },
             "group": "B Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -95,8 +95,8 @@
                 "flag": "🇲🇦"
             },
             "group": "C Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m7",
@@ -110,8 +110,8 @@
                 "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
             },
             "group": "C Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m8",
@@ -125,8 +125,8 @@
                 "flag": "🇹🇷"
             },
             "group": "D Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "Yayıncı Bekleniyor"
         },
         {
             "id": "m9",
@@ -140,7 +140,7 @@
                 "flag": "🇨🇼"
             },
             "group": "E Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -155,8 +155,8 @@
                 "flag": "🇯🇵"
             },
             "group": "F Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m11",
@@ -170,8 +170,8 @@
                 "flag": "🇪🇨"
             },
             "group": "E Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m12",
@@ -185,7 +185,7 @@
                 "flag": "🇹🇳"
             },
             "group": "F Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -200,8 +200,8 @@
                 "flag": "🇨🇻"
             },
             "group": "H Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m14",
@@ -215,7 +215,7 @@
                 "flag": "🇪🇬"
             },
             "group": "G Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -230,8 +230,8 @@
                 "flag": "🇺🇾"
             },
             "group": "H Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "Yayıncı Bekleniyor"
         },
         {
             "id": "m16",
@@ -245,8 +245,8 @@
                 "flag": "🇳🇿"
             },
             "group": "G Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m17",
@@ -260,7 +260,7 @@
                 "flag": "🇸🇳"
             },
             "group": "I Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -275,7 +275,7 @@
                 "flag": "🇳🇴"
             },
             "group": "I Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -290,8 +290,8 @@
                 "flag": "🇩🇿"
             },
             "group": "J Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m20",
@@ -305,7 +305,7 @@
                 "flag": "🇯🇴"
             },
             "group": "J Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -320,8 +320,8 @@
                 "flag": "🇨🇩"
             },
             "group": "K Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m22",
@@ -335,8 +335,8 @@
                 "flag": "🇭🇷"
             },
             "group": "L Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m23",
@@ -350,7 +350,7 @@
                 "flag": "🇵🇦"
             },
             "group": "L Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -365,7 +365,7 @@
                 "flag": "🇨🇴"
             },
             "group": "K Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -380,8 +380,8 @@
                 "flag": "🇿🇦"
             },
             "group": "A Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m26",
@@ -395,8 +395,8 @@
                 "flag": "🇨🇭"
             },
             "group": "B Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m27",
@@ -410,7 +410,7 @@
                 "flag": "🇶🇦"
             },
             "group": "B Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -425,8 +425,8 @@
                 "flag": "🇰🇷"
             },
             "group": "A Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m29",
@@ -440,8 +440,8 @@
                 "flag": "🇦🇺"
             },
             "group": "D Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "Yayıncı Bekleniyor"
         },
         {
             "id": "m30",
@@ -455,7 +455,7 @@
                 "flag": "🇲🇦"
             },
             "group": "C Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -470,8 +470,8 @@
                 "flag": "🇭🇹"
             },
             "group": "C Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m32",
@@ -485,7 +485,7 @@
                 "flag": "🇵🇾"
             },
             "group": "D Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -500,7 +500,7 @@
                 "flag": "🇸🇪"
             },
             "group": "F Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -515,8 +515,8 @@
                 "flag": "🇨🇮"
             },
             "group": "E Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m35",
@@ -530,7 +530,7 @@
                 "flag": "🇨🇼"
             },
             "group": "E Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -545,8 +545,8 @@
                 "flag": "🇯🇵"
             },
             "group": "F Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m37",
@@ -560,8 +560,8 @@
                 "flag": "🇸🇦"
             },
             "group": "H Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m38",
@@ -575,7 +575,7 @@
                 "flag": "🇮🇷"
             },
             "group": "G Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -590,7 +590,7 @@
                 "flag": "🇨🇻"
             },
             "group": "H Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -605,8 +605,8 @@
                 "flag": "🇪🇬"
             },
             "group": "G Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m41",
@@ -620,8 +620,8 @@
                 "flag": "🇮🇶"
             },
             "group": "I Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m42",
@@ -635,7 +635,7 @@
                 "flag": "🇸🇳"
             },
             "group": "I Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -650,8 +650,8 @@
                 "flag": "🇦🇹"
             },
             "group": "J Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m44",
@@ -665,7 +665,7 @@
                 "flag": "🇩🇿"
             },
             "group": "J Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -680,7 +680,7 @@
                 "flag": "🇺🇿"
             },
             "group": "K Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -695,8 +695,8 @@
                 "flag": "🇨🇩"
             },
             "group": "K Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m47",
@@ -710,7 +710,7 @@
                 "flag": "🇬🇭"
             },
             "group": "L Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -725,7 +725,7 @@
                 "flag": "🇭🇷"
             },
             "group": "L Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -740,8 +740,8 @@
                 "flag": "🇨🇿"
             },
             "group": "A Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m50",
@@ -755,8 +755,8 @@
                 "flag": "🇰🇷"
             },
             "group": "A Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "Yayıncı Bekleniyor"
         },
         {
             "id": "m51",
@@ -770,8 +770,8 @@
                 "flag": "🇨🇭"
             },
             "group": "B Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m52",
@@ -785,8 +785,8 @@
                 "flag": "🇶🇦"
             },
             "group": "B Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m53",
@@ -800,7 +800,7 @@
                 "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
             },
             "group": "C Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -815,7 +815,7 @@
                 "flag": "🇭🇹"
             },
             "group": "C Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -830,8 +830,8 @@
                 "flag": "🇺🇸"
             },
             "group": "D Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m56",
@@ -845,8 +845,8 @@
                 "flag": "🇦🇺"
             },
             "group": "D Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m57",
@@ -860,8 +860,8 @@
                 "flag": "🇪🇨"
             },
             "group": "E Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "Yayıncı Bekleniyor"
         },
         {
             "id": "m58",
@@ -875,8 +875,8 @@
                 "flag": "🇨🇮"
             },
             "group": "E Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m59",
@@ -890,7 +890,7 @@
                 "flag": "🇹🇳"
             },
             "group": "F Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -905,7 +905,7 @@
                 "flag": "🇸🇪"
             },
             "group": "F Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -920,8 +920,8 @@
                 "flag": "🇳🇿"
             },
             "group": "G Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m62",
@@ -935,7 +935,7 @@
                 "flag": "🇮🇷"
             },
             "group": "G Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -950,7 +950,7 @@
                 "flag": "🇺🇾"
             },
             "group": "H Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -965,8 +965,8 @@
                 "flag": "🇸🇦"
             },
             "group": "H Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m65",
@@ -980,7 +980,7 @@
                 "flag": "🇳🇴"
             },
             "group": "I Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -995,8 +995,8 @@
                 "flag": "🇮🇶"
             },
             "group": "I Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m67",
@@ -1010,8 +1010,8 @@
                 "flag": "🇯🇴"
             },
             "group": "J Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m68",
@@ -1025,7 +1025,7 @@
                 "flag": "🇦🇹"
             },
             "group": "J Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -1040,7 +1040,7 @@
                 "flag": "🇨🇴"
             },
             "group": "K Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -1055,8 +1055,8 @@
                 "flag": "🇺🇿"
             },
             "group": "K Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m71",
@@ -1070,8 +1070,8 @@
                 "flag": "🇵🇦"
             },
             "group": "L Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "stadium": "",
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m72",
@@ -1085,7 +1085,7 @@
                 "flag": "🇬🇭"
             },
             "group": "L Grubu",
-            "stadium": "FIFA Stadyumu, ABD",
+            "stadium": "",
             "broadcaster": "TRT Spor"
         },
         {
@@ -1101,7 +1101,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Los Angeles, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m74",
@@ -1146,7 +1146,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Atlanta, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m77",
@@ -1176,7 +1176,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "New York New Jersey, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "Yayıncı Bekleniyor"
         },
         {
             "id": "m79",
@@ -1191,7 +1191,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Houston, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m80",
@@ -1221,7 +1221,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Orlando, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m82",
@@ -1236,7 +1236,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Miami, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m83",
@@ -1281,7 +1281,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Kansas City, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m86",
@@ -1296,7 +1296,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Seattle, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m87",
@@ -1326,7 +1326,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Philadelphia, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m89",
@@ -1371,7 +1371,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Philadelphia, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m92",
@@ -1386,7 +1386,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Mexico City, Meksika",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "Yayıncı Bekleniyor"
         },
         {
             "id": "m93",
@@ -1416,7 +1416,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Vancouver, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m95",
@@ -1446,7 +1446,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Boston, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m97",
@@ -1461,7 +1461,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Boston, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m98",
@@ -1491,7 +1491,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Miami, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "Yayıncı Bekleniyor"
         },
         {
             "id": "m100",
@@ -1506,7 +1506,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Kansas City, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m101",
@@ -1521,7 +1521,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Dallas - AT&T Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TOD TV"
         },
         {
             "id": "m102",
@@ -1551,7 +1551,7 @@
             },
             "group": "Eliminasyon",
             "stadium": "Miami - Hard Rock Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT 1"
         },
         {
             "id": "m104",
