@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function fetchData() {
     try {
-        // 1. Ağ: Kusursuz Ana Fikstür İskeletini Alıyoruz (Şimdilik yerel dosya)
+        // 1. Ağ: Kusursuz Ana Fikstür İskeletini Alıyoruz
         let baseData;
         try {
             const response = await fetch('data.json');
@@ -39,24 +39,25 @@ async function fetchData() {
             return;
         }
 
-        // 2. Örümcek Ağı: Türk Sitelerini Canlı Kazıma (TOD TV, TRT Analizi)
-        // Arka planda sessizce başka sitelere girip yayıncı kelimelerini (TOD TV vb.) tarar.
-        const channelsData = await scrapeTurkishBroadcasters();
-        
-        // 3. Akıllı Birleştirme (Smart Merge)
-        const mergedMatches = baseData.matches.map(match => {
-            const team1Name = match.team1.name;
-            const team2Name = match.team2.name;
-            
-            // Eğer örümcek bu takımlarla ilgili yeni bir yayıncı yakaladıysa (Örn: TOD TV), eski kanalı ez ve yenisini yaz!
-            const spiderChannel = findChannelInScrapedData(channelsData, team1Name, team2Name);
-            if (spiderChannel) {
-                match.broadcaster = spiderChannel;
-            }
-            return match;
-        });
+        // KULLANICIYI BEKLETMEMEK İÇİN ANA VERİYİ HEMEN EKRANA BASIYORUZ!
+        processMatches(baseData.matches);
 
-        processMatches(mergedMatches);
+        // 2. Örümcek Ağı: Arka planda sessizce çalışır, ekranı dondurmaz.
+        scrapeTurkishBroadcasters().then(channelsData => {
+            if (channelsData && channelsData.length > 0) {
+                // 3. Akıllı Birleştirme (Smart Merge)
+                const mergedMatches = baseData.matches.map(match => {
+                    const spiderChannel = findChannelInScrapedData(channelsData, match.team1.name, match.team2.name);
+                    if (spiderChannel) {
+                        match.broadcaster = spiderChannel;
+                    }
+                    return match;
+                });
+                // Kanallar bulunduktan sonra kartları sessizce günceller
+                processMatches(mergedMatches);
+            }
+        }).catch(err => console.error("Örümcek arka planda hata verdi", err));
+
     } catch (error) {
         console.error('Örümcek ağa takıldı:', error);
         document.getElementById('today-matches').innerHTML = '<div class="no-matches">Sistem geçici olarak ulaşılamıyor.</div>';
@@ -195,7 +196,7 @@ function createMatchCard(match) {
             </div>
         </div>
         <div class="match-footer">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; flex-shrink: 0;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
             ${match.stadium}
         </div>
     `;
