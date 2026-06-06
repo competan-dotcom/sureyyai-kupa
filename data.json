@@ -1,81 +1,1564 @@
 {
-  "matches": [
-    {
-      "id": "m1",
-      "date_utc": "2026-06-11T19:00:00Z",
-      "team1": { "name": "Meksika", "code": "MEX", "flag": "🇲🇽" },
-      "team2": { "name": "Güney Afrika", "code": "RSA", "flag": "🇿🇦" },
-      "group": "A Grubu",
-      "stadium": "Estadio Azteca, Mexico City",
-      "broadcaster": "TRT 1",
-      "status": "scheduled",
-      "score": null
-    },
-    {
-      "id": "m2",
-      "date_utc": "2026-06-12T19:00:00Z",
-      "team1": { "name": "Kanada", "code": "CAN", "flag": "🇨🇦" },
-      "team2": { "name": "Bosna Hersek", "code": "BIH", "flag": "🇧🇦" },
-      "group": "B Grubu",
-      "stadium": "BMO Field, Toronto",
-      "broadcaster": "TRT Spor",
-      "status": "scheduled",
-      "score": null
-    },
-    {
-      "id": "m3",
-      "date_utc": "2026-06-13T02:00:00Z",
-      "team1": { "name": "ABD", "code": "USA", "flag": "🇺🇸" },
-      "team2": { "name": "Paraguay", "code": "PAR", "flag": "🇵🇾" },
-      "group": "D Grubu",
-      "stadium": "SoFi Stadium, Los Angeles",
-      "broadcaster": "TRT 1",
-      "status": "scheduled",
-      "score": null
-    },
-    {
-      "id": "m4",
-      "date_utc": "2026-06-13T16:00:00Z",
-      "team1": { "name": "Türkiye", "code": "TUR", "flag": "🇹🇷" },
-      "team2": { "name": "Japonya", "code": "JPN", "flag": "🇯🇵" },
-      "group": "F Grubu",
-      "stadium": "MetLife Stadium, New Jersey",
-      "broadcaster": "TRT 1",
-      "status": "scheduled",
-      "score": null
-    },
-    {
-      "id": "m5",
-      "date_utc": "2026-06-13T19:00:00Z",
-      "team1": { "name": "Arjantin", "code": "ARG", "flag": "🇦🇷" },
-      "team2": { "name": "İtalya", "code": "ITA", "flag": "🇮🇹" },
-      "group": "C Grubu",
-      "stadium": "Hard Rock Stadium, Miami",
-      "broadcaster": "TRT 1",
-      "status": "scheduled",
-      "score": null
-    },
-    {
-      "id": "m6",
-      "date_utc": "2026-06-14T15:00:00Z",
-      "team1": { "name": "İngiltere", "code": "ENG", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿" },
-      "team2": { "name": "İran", "code": "IRN", "flag": "🇮🇷" },
-      "group": "B Grubu",
-      "stadium": "NRG Stadium, Houston",
-      "broadcaster": "TRT Spor",
-      "status": "scheduled",
-      "score": null
-    },
-    {
-      "id": "m7",
-      "date_utc": "2026-06-14T19:00:00Z",
-      "team1": { "name": "Brezilya", "code": "BRA", "flag": "🇧🇷" },
-      "team2": { "name": "Fas", "code": "MAR", "flag": "🇲🇦" },
-      "group": "E Grubu",
-      "stadium": "AT&T Stadium, Dallas",
-      "broadcaster": "TRT 1",
-      "status": "scheduled",
-      "score": null
-    }
-  ]
+    "matches": [
+        {
+            "id": "m1",
+            "date_utc": "2026-06-11T19:00:00.000Z",
+            "team1": {
+                "name": "Meksika",
+                "flag": "🇲🇽"
+            },
+            "team2": {
+                "name": "Güney Afrika",
+                "flag": "🇿🇦"
+            },
+            "group": "A Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m2",
+            "date_utc": "2026-06-12T02:00:00.000Z",
+            "team1": {
+                "name": "Güney Kore",
+                "flag": "🇰🇷"
+            },
+            "team2": {
+                "name": "Çek Cumhuriyeti",
+                "flag": "🇨🇿"
+            },
+            "group": "A Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m3",
+            "date_utc": "2026-06-12T19:00:00.000Z",
+            "team1": {
+                "name": "Kanada",
+                "flag": "🇨🇦"
+            },
+            "team2": {
+                "name": "Bosna Hersek",
+                "flag": "🇧🇦"
+            },
+            "group": "B Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m4",
+            "date_utc": "2026-06-13T01:00:00.000Z",
+            "team1": {
+                "name": "ABD",
+                "flag": "🇺🇸"
+            },
+            "team2": {
+                "name": "Paraguay",
+                "flag": "🇵🇾"
+            },
+            "group": "D Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m5",
+            "date_utc": "2026-06-13T19:00:00.000Z",
+            "team1": {
+                "name": "Katar",
+                "flag": "🇶🇦"
+            },
+            "team2": {
+                "name": "İsviçre",
+                "flag": "🇨🇭"
+            },
+            "group": "B Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m6",
+            "date_utc": "2026-06-13T22:00:00.000Z",
+            "team1": {
+                "name": "Brezilya",
+                "flag": "🇧🇷"
+            },
+            "team2": {
+                "name": "Fas",
+                "flag": "🇲🇦"
+            },
+            "group": "C Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m7",
+            "date_utc": "2026-06-14T01:00:00.000Z",
+            "team1": {
+                "name": "Haiti",
+                "flag": "🇭🇹"
+            },
+            "team2": {
+                "name": "İskoçya",
+                "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+            },
+            "group": "C Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m8",
+            "date_utc": "2026-06-14T04:00:00.000Z",
+            "team1": {
+                "name": "Avustralya",
+                "flag": "🇦🇺"
+            },
+            "team2": {
+                "name": "Türkiye",
+                "flag": "🇹🇷"
+            },
+            "group": "D Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m9",
+            "date_utc": "2026-06-14T17:00:00.000Z",
+            "team1": {
+                "name": "Almanya",
+                "flag": "🇩🇪"
+            },
+            "team2": {
+                "name": "Curaçao",
+                "flag": "🇨🇼"
+            },
+            "group": "E Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m10",
+            "date_utc": "2026-06-14T20:00:00.000Z",
+            "team1": {
+                "name": "Hollanda",
+                "flag": "🇳🇱"
+            },
+            "team2": {
+                "name": "Japonya",
+                "flag": "🇯🇵"
+            },
+            "group": "F Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m11",
+            "date_utc": "2026-06-14T23:00:00.000Z",
+            "team1": {
+                "name": "Fildişi Sahili",
+                "flag": "🇨🇮"
+            },
+            "team2": {
+                "name": "Ekvador",
+                "flag": "🇪🇨"
+            },
+            "group": "E Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m12",
+            "date_utc": "2026-06-15T02:00:00.000Z",
+            "team1": {
+                "name": "İsveç",
+                "flag": "🇸🇪"
+            },
+            "team2": {
+                "name": "Tunus",
+                "flag": "🇹🇳"
+            },
+            "group": "F Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m13",
+            "date_utc": "2026-06-15T16:00:00.000Z",
+            "team1": {
+                "name": "İspanya",
+                "flag": "🇪🇸"
+            },
+            "team2": {
+                "name": "Yeşil Burun Adaları",
+                "flag": "🇨🇻"
+            },
+            "group": "H Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m14",
+            "date_utc": "2026-06-15T19:00:00.000Z",
+            "team1": {
+                "name": "Belçika",
+                "flag": "🇧🇪"
+            },
+            "team2": {
+                "name": "Mısır",
+                "flag": "🇪🇬"
+            },
+            "group": "G Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m15",
+            "date_utc": "2026-06-15T22:00:00.000Z",
+            "team1": {
+                "name": "Suudi Arabistan",
+                "flag": "🇸🇦"
+            },
+            "team2": {
+                "name": "Uruguay",
+                "flag": "🇺🇾"
+            },
+            "group": "H Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m16",
+            "date_utc": "2026-06-16T01:00:00.000Z",
+            "team1": {
+                "name": "İran",
+                "flag": "🇮🇷"
+            },
+            "team2": {
+                "name": "Yeni Zelanda",
+                "flag": "🇳🇿"
+            },
+            "group": "G Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m17",
+            "date_utc": "2026-06-16T19:00:00.000Z",
+            "team1": {
+                "name": "Fransa",
+                "flag": "🇫🇷"
+            },
+            "team2": {
+                "name": "Senegal",
+                "flag": "🇸🇳"
+            },
+            "group": "I Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m18",
+            "date_utc": "2026-06-16T22:00:00.000Z",
+            "team1": {
+                "name": "Irak",
+                "flag": "🇮🇶"
+            },
+            "team2": {
+                "name": "Norveç",
+                "flag": "🇳🇴"
+            },
+            "group": "I Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m19",
+            "date_utc": "2026-06-17T01:00:00.000Z",
+            "team1": {
+                "name": "Arjantin",
+                "flag": "🇦🇷"
+            },
+            "team2": {
+                "name": "Cezayir",
+                "flag": "🇩🇿"
+            },
+            "group": "J Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m20",
+            "date_utc": "2026-06-17T04:00:00.000Z",
+            "team1": {
+                "name": "Avusturya",
+                "flag": "🇦🇹"
+            },
+            "team2": {
+                "name": "Ürdün",
+                "flag": "🇯🇴"
+            },
+            "group": "J Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m21",
+            "date_utc": "2026-06-17T17:00:00.000Z",
+            "team1": {
+                "name": "Portekiz",
+                "flag": "🇵🇹"
+            },
+            "team2": {
+                "name": "Demokratik Kongo Cumhuriyeti",
+                "flag": "🇨🇩"
+            },
+            "group": "K Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m22",
+            "date_utc": "2026-06-17T20:00:00.000Z",
+            "team1": {
+                "name": "İngiltere",
+                "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+            },
+            "team2": {
+                "name": "Hırvatistan",
+                "flag": "🇭🇷"
+            },
+            "group": "L Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m23",
+            "date_utc": "2026-06-17T23:00:00.000Z",
+            "team1": {
+                "name": "Gana",
+                "flag": "🇬🇭"
+            },
+            "team2": {
+                "name": "Panama",
+                "flag": "🇵🇦"
+            },
+            "group": "L Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m24",
+            "date_utc": "2026-06-18T02:00:00.000Z",
+            "team1": {
+                "name": "Özbekistan",
+                "flag": "🇺🇿"
+            },
+            "team2": {
+                "name": "Kolombiya",
+                "flag": "🇨🇴"
+            },
+            "group": "K Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m25",
+            "date_utc": "2026-06-18T16:00:00.000Z",
+            "team1": {
+                "name": "Çek Cumhuriyeti",
+                "flag": "🇨🇿"
+            },
+            "team2": {
+                "name": "Güney Afrika",
+                "flag": "🇿🇦"
+            },
+            "group": "A Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m26",
+            "date_utc": "2026-06-18T19:00:00.000Z",
+            "team1": {
+                "name": "Bosna Hersek",
+                "flag": "🇧🇦"
+            },
+            "team2": {
+                "name": "İsviçre",
+                "flag": "🇨🇭"
+            },
+            "group": "B Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m27",
+            "date_utc": "2026-06-18T22:00:00.000Z",
+            "team1": {
+                "name": "Kanada",
+                "flag": "🇨🇦"
+            },
+            "team2": {
+                "name": "Katar",
+                "flag": "🇶🇦"
+            },
+            "group": "B Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m28",
+            "date_utc": "2026-06-19T01:00:00.000Z",
+            "team1": {
+                "name": "Meksika",
+                "flag": "🇲🇽"
+            },
+            "team2": {
+                "name": "Güney Kore",
+                "flag": "🇰🇷"
+            },
+            "group": "A Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m29",
+            "date_utc": "2026-06-19T19:00:00.000Z",
+            "team1": {
+                "name": "ABD",
+                "flag": "🇺🇸"
+            },
+            "team2": {
+                "name": "Avustralya",
+                "flag": "🇦🇺"
+            },
+            "group": "D Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m30",
+            "date_utc": "2026-06-19T22:00:00.000Z",
+            "team1": {
+                "name": "İskoçya",
+                "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+            },
+            "team2": {
+                "name": "Fas",
+                "flag": "🇲🇦"
+            },
+            "group": "C Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m31",
+            "date_utc": "2026-06-20T00:30:00.000Z",
+            "team1": {
+                "name": "Brezilya",
+                "flag": "🇧🇷"
+            },
+            "team2": {
+                "name": "Haiti",
+                "flag": "🇭🇹"
+            },
+            "group": "C Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m32",
+            "date_utc": "2026-06-20T03:00:00.000Z",
+            "team1": {
+                "name": "Türkiye",
+                "flag": "🇹🇷"
+            },
+            "team2": {
+                "name": "Paraguay",
+                "flag": "🇵🇾"
+            },
+            "group": "D Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m33",
+            "date_utc": "2026-06-20T17:00:00.000Z",
+            "team1": {
+                "name": "Hollanda",
+                "flag": "🇳🇱"
+            },
+            "team2": {
+                "name": "İsveç",
+                "flag": "🇸🇪"
+            },
+            "group": "F Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m34",
+            "date_utc": "2026-06-20T20:00:00.000Z",
+            "team1": {
+                "name": "Almanya",
+                "flag": "🇩🇪"
+            },
+            "team2": {
+                "name": "Fildişi Sahili",
+                "flag": "🇨🇮"
+            },
+            "group": "E Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m35",
+            "date_utc": "2026-06-21T00:00:00.000Z",
+            "team1": {
+                "name": "Ekvador",
+                "flag": "🇪🇨"
+            },
+            "team2": {
+                "name": "Curaçao",
+                "flag": "🇨🇼"
+            },
+            "group": "E Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m36",
+            "date_utc": "2026-06-21T04:00:00.000Z",
+            "team1": {
+                "name": "Tunus",
+                "flag": "🇹🇳"
+            },
+            "team2": {
+                "name": "Japonya",
+                "flag": "🇯🇵"
+            },
+            "group": "F Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m37",
+            "date_utc": "2026-06-21T16:00:00.000Z",
+            "team1": {
+                "name": "İspanya",
+                "flag": "🇪🇸"
+            },
+            "team2": {
+                "name": "Suudi Arabistan",
+                "flag": "🇸🇦"
+            },
+            "group": "H Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m38",
+            "date_utc": "2026-06-21T19:00:00.000Z",
+            "team1": {
+                "name": "Belçika",
+                "flag": "🇧🇪"
+            },
+            "team2": {
+                "name": "İran",
+                "flag": "🇮🇷"
+            },
+            "group": "G Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m39",
+            "date_utc": "2026-06-21T22:00:00.000Z",
+            "team1": {
+                "name": "Uruguay",
+                "flag": "🇺🇾"
+            },
+            "team2": {
+                "name": "Yeşil Burun Adaları",
+                "flag": "🇨🇻"
+            },
+            "group": "H Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m40",
+            "date_utc": "2026-06-22T01:00:00.000Z",
+            "team1": {
+                "name": "Yeni Zelanda",
+                "flag": "🇳🇿"
+            },
+            "team2": {
+                "name": "Mısır",
+                "flag": "🇪🇬"
+            },
+            "group": "G Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m41",
+            "date_utc": "2026-06-22T16:00:00.000Z",
+            "team1": {
+                "name": "Fransa",
+                "flag": "🇫🇷"
+            },
+            "team2": {
+                "name": "Irak",
+                "flag": "🇮🇶"
+            },
+            "group": "I Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m42",
+            "date_utc": "2026-06-22T19:00:00.000Z",
+            "team1": {
+                "name": "Norveç",
+                "flag": "🇳🇴"
+            },
+            "team2": {
+                "name": "Senegal",
+                "flag": "🇸🇳"
+            },
+            "group": "I Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m43",
+            "date_utc": "2026-06-22T22:00:00.000Z",
+            "team1": {
+                "name": "Arjantin",
+                "flag": "🇦🇷"
+            },
+            "team2": {
+                "name": "Avusturya",
+                "flag": "🇦🇹"
+            },
+            "group": "J Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m44",
+            "date_utc": "2026-06-23T01:00:00.000Z",
+            "team1": {
+                "name": "Ürdün",
+                "flag": "🇯🇴"
+            },
+            "team2": {
+                "name": "Cezayir",
+                "flag": "🇩🇿"
+            },
+            "group": "J Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m45",
+            "date_utc": "2026-06-23T16:00:00.000Z",
+            "team1": {
+                "name": "Portekiz",
+                "flag": "🇵🇹"
+            },
+            "team2": {
+                "name": "Özbekistan",
+                "flag": "🇺🇿"
+            },
+            "group": "K Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m46",
+            "date_utc": "2026-06-23T19:00:00.000Z",
+            "team1": {
+                "name": "Kolombiya",
+                "flag": "🇨🇴"
+            },
+            "team2": {
+                "name": "Demokratik Kongo Cumhuriyeti",
+                "flag": "🇨🇩"
+            },
+            "group": "K Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m47",
+            "date_utc": "2026-06-23T22:00:00.000Z",
+            "team1": {
+                "name": "İngiltere",
+                "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+            },
+            "team2": {
+                "name": "Gana",
+                "flag": "🇬🇭"
+            },
+            "group": "L Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m48",
+            "date_utc": "2026-06-24T01:00:00.000Z",
+            "team1": {
+                "name": "Panama",
+                "flag": "🇵🇦"
+            },
+            "team2": {
+                "name": "Hırvatistan",
+                "flag": "🇭🇷"
+            },
+            "group": "L Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m49",
+            "date_utc": "2026-06-24T20:00:00.000Z",
+            "team1": {
+                "name": "Meksika",
+                "flag": "🇲🇽"
+            },
+            "team2": {
+                "name": "Çek Cumhuriyeti",
+                "flag": "🇨🇿"
+            },
+            "group": "A Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m50",
+            "date_utc": "2026-06-24T20:00:00.000Z",
+            "team1": {
+                "name": "Güney Afrika",
+                "flag": "🇿🇦"
+            },
+            "team2": {
+                "name": "Güney Kore",
+                "flag": "🇰🇷"
+            },
+            "group": "A Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m51",
+            "date_utc": "2026-06-25T00:00:00.000Z",
+            "team1": {
+                "name": "Kanada",
+                "flag": "🇨🇦"
+            },
+            "team2": {
+                "name": "İsviçre",
+                "flag": "🇨🇭"
+            },
+            "group": "B Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m52",
+            "date_utc": "2026-06-25T00:00:00.000Z",
+            "team1": {
+                "name": "Bosna Hersek",
+                "flag": "🇧🇦"
+            },
+            "team2": {
+                "name": "Katar",
+                "flag": "🇶🇦"
+            },
+            "group": "B Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m53",
+            "date_utc": "2026-06-25T20:00:00.000Z",
+            "team1": {
+                "name": "Brezilya",
+                "flag": "🇧🇷"
+            },
+            "team2": {
+                "name": "İskoçya",
+                "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+            },
+            "group": "C Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m54",
+            "date_utc": "2026-06-25T20:00:00.000Z",
+            "team1": {
+                "name": "Fas",
+                "flag": "🇲🇦"
+            },
+            "team2": {
+                "name": "Haiti",
+                "flag": "🇭🇹"
+            },
+            "group": "C Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m55",
+            "date_utc": "2026-06-26T00:00:00.000Z",
+            "team1": {
+                "name": "Türkiye",
+                "flag": "🇹🇷"
+            },
+            "team2": {
+                "name": "ABD",
+                "flag": "🇺🇸"
+            },
+            "group": "D Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m56",
+            "date_utc": "2026-06-26T00:00:00.000Z",
+            "team1": {
+                "name": "Paraguay",
+                "flag": "🇵🇾"
+            },
+            "team2": {
+                "name": "Avustralya",
+                "flag": "🇦🇺"
+            },
+            "group": "D Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m57",
+            "date_utc": "2026-06-26T20:00:00.000Z",
+            "team1": {
+                "name": "Almanya",
+                "flag": "🇩🇪"
+            },
+            "team2": {
+                "name": "Ekvador",
+                "flag": "🇪🇨"
+            },
+            "group": "E Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m58",
+            "date_utc": "2026-06-26T20:00:00.000Z",
+            "team1": {
+                "name": "Curaçao",
+                "flag": "🇨🇼"
+            },
+            "team2": {
+                "name": "Fildişi Sahili",
+                "flag": "🇨🇮"
+            },
+            "group": "E Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m59",
+            "date_utc": "2026-06-27T00:00:00.000Z",
+            "team1": {
+                "name": "Hollanda",
+                "flag": "🇳🇱"
+            },
+            "team2": {
+                "name": "Tunus",
+                "flag": "🇹🇳"
+            },
+            "group": "F Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m60",
+            "date_utc": "2026-06-27T00:00:00.000Z",
+            "team1": {
+                "name": "Japonya",
+                "flag": "🇯🇵"
+            },
+            "team2": {
+                "name": "İsveç",
+                "flag": "🇸🇪"
+            },
+            "group": "F Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m61",
+            "date_utc": "2026-06-27T19:00:00.000Z",
+            "team1": {
+                "name": "Belçika",
+                "flag": "🇧🇪"
+            },
+            "team2": {
+                "name": "Yeni Zelanda",
+                "flag": "🇳🇿"
+            },
+            "group": "G Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m62",
+            "date_utc": "2026-06-27T19:00:00.000Z",
+            "team1": {
+                "name": "Mısır",
+                "flag": "🇪🇬"
+            },
+            "team2": {
+                "name": "İran",
+                "flag": "🇮🇷"
+            },
+            "group": "G Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m63",
+            "date_utc": "2026-06-27T22:00:00.000Z",
+            "team1": {
+                "name": "İspanya",
+                "flag": "🇪🇸"
+            },
+            "team2": {
+                "name": "Uruguay",
+                "flag": "🇺🇾"
+            },
+            "group": "H Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m64",
+            "date_utc": "2026-06-27T22:00:00.000Z",
+            "team1": {
+                "name": "Yeşil Burun Adaları",
+                "flag": "🇨🇻"
+            },
+            "team2": {
+                "name": "Suudi Arabistan",
+                "flag": "🇸🇦"
+            },
+            "group": "H Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m65",
+            "date_utc": "2026-06-28T19:00:00.000Z",
+            "team1": {
+                "name": "Fransa",
+                "flag": "🇫🇷"
+            },
+            "team2": {
+                "name": "Norveç",
+                "flag": "🇳🇴"
+            },
+            "group": "I Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m66",
+            "date_utc": "2026-06-28T19:00:00.000Z",
+            "team1": {
+                "name": "Senegal",
+                "flag": "🇸🇳"
+            },
+            "team2": {
+                "name": "Irak",
+                "flag": "🇮🇶"
+            },
+            "group": "I Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m67",
+            "date_utc": "2026-06-28T22:00:00.000Z",
+            "team1": {
+                "name": "Arjantin",
+                "flag": "🇦🇷"
+            },
+            "team2": {
+                "name": "Ürdün",
+                "flag": "🇯🇴"
+            },
+            "group": "J Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m68",
+            "date_utc": "2026-06-28T22:00:00.000Z",
+            "team1": {
+                "name": "Cezayir",
+                "flag": "🇩🇿"
+            },
+            "team2": {
+                "name": "Avusturya",
+                "flag": "🇦🇹"
+            },
+            "group": "J Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m69",
+            "date_utc": "2026-06-29T19:00:00.000Z",
+            "team1": {
+                "name": "Portekiz",
+                "flag": "🇵🇹"
+            },
+            "team2": {
+                "name": "Kolombiya",
+                "flag": "🇨🇴"
+            },
+            "group": "K Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m70",
+            "date_utc": "2026-06-29T19:00:00.000Z",
+            "team1": {
+                "name": "Demokratik Kongo Cumhuriyeti",
+                "flag": "🇨🇩"
+            },
+            "team2": {
+                "name": "Özbekistan",
+                "flag": "🇺🇿"
+            },
+            "group": "K Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m71",
+            "date_utc": "2026-06-29T22:00:00.000Z",
+            "team1": {
+                "name": "İngiltere",
+                "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+            },
+            "team2": {
+                "name": "Panama",
+                "flag": "🇵🇦"
+            },
+            "group": "L Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m72",
+            "date_utc": "2026-06-29T22:00:00.000Z",
+            "team1": {
+                "name": "Hırvatistan",
+                "flag": "🇭🇷"
+            },
+            "team2": {
+                "name": "Gana",
+                "flag": "🇬🇭"
+            },
+            "group": "L Grubu",
+            "stadium": "FIFA Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m73",
+            "date_utc": "2026-06-28T20:00:00.000Z",
+            "team1": {
+                "name": "Maç 73",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Los Angeles",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m74",
+            "date_utc": "2026-06-29T00:00:00.000Z",
+            "team1": {
+                "name": "Maç 74",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Dallas",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m75",
+            "date_utc": "2026-06-29T19:00:00.000Z",
+            "team1": {
+                "name": "Maç 75",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Boston",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m76",
+            "date_utc": "2026-06-29T22:00:00.000Z",
+            "team1": {
+                "name": "Maç 76",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Atlanta",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m77",
+            "date_utc": "2026-06-30T01:00:00.000Z",
+            "team1": {
+                "name": "Maç 77",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "San Francisco",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m78",
+            "date_utc": "2026-06-30T19:00:00.000Z",
+            "team1": {
+                "name": "Maç 78",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "New York New Jersey",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m79",
+            "date_utc": "2026-06-30T22:00:00.000Z",
+            "team1": {
+                "name": "Maç 79",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Houston",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m80",
+            "date_utc": "2026-07-01T01:00:00.000Z",
+            "team1": {
+                "name": "Maç 80",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Monterrey",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m81",
+            "date_utc": "2026-07-01T19:00:00.000Z",
+            "team1": {
+                "name": "Maç 81",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Orlando",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m82",
+            "date_utc": "2026-07-01T22:00:00.000Z",
+            "team1": {
+                "name": "Maç 82",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Miami",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m83",
+            "date_utc": "2026-07-02T01:00:00.000Z",
+            "team1": {
+                "name": "Maç 83",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Mexico City",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m84",
+            "date_utc": "2026-07-02T19:00:00.000Z",
+            "team1": {
+                "name": "Maç 84",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Vancouver",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m85",
+            "date_utc": "2026-07-02T22:00:00.000Z",
+            "team1": {
+                "name": "Maç 85",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Kansas City",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m86",
+            "date_utc": "2026-07-03T01:00:00.000Z",
+            "team1": {
+                "name": "Maç 86",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Seattle",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m87",
+            "date_utc": "2026-07-03T19:00:00.000Z",
+            "team1": {
+                "name": "Maç 87",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Toronto",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m88",
+            "date_utc": "2026-07-03T22:00:00.000Z",
+            "team1": {
+                "name": "Maç 88",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Philadelphia",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m89",
+            "date_utc": "2026-07-04T20:00:00.000Z",
+            "team1": {
+                "name": "Maç 89",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Houston",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m90",
+            "date_utc": "2026-07-05T00:00:00.000Z",
+            "team1": {
+                "name": "Maç 90",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "New York New Jersey",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m91",
+            "date_utc": "2026-07-05T20:00:00.000Z",
+            "team1": {
+                "name": "Maç 91",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Philadelphia",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m92",
+            "date_utc": "2026-07-06T00:00:00.000Z",
+            "team1": {
+                "name": "Maç 92",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Mexico City",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m93",
+            "date_utc": "2026-07-06T19:00:00.000Z",
+            "team1": {
+                "name": "Maç 93",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Seattle",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m94",
+            "date_utc": "2026-07-06T22:00:00.000Z",
+            "team1": {
+                "name": "Maç 94",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Vancouver",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m95",
+            "date_utc": "2026-07-07T19:00:00.000Z",
+            "team1": {
+                "name": "Maç 95",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Atlanta",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m96",
+            "date_utc": "2026-07-07T22:00:00.000Z",
+            "team1": {
+                "name": "Maç 96",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Boston",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m97",
+            "date_utc": "2026-07-10T19:00:00.000Z",
+            "team1": {
+                "name": "Çeyrek Final 1",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Boston",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m98",
+            "date_utc": "2026-07-10T22:00:00.000Z",
+            "team1": {
+                "name": "Çeyrek Final 2",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Los Angeles",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m99",
+            "date_utc": "2026-07-11T19:00:00.000Z",
+            "team1": {
+                "name": "Çeyrek Final 3",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Miami",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m100",
+            "date_utc": "2026-07-11T22:00:00.000Z",
+            "team1": {
+                "name": "Çeyrek Final 4",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Kansas City",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m101",
+            "date_utc": "2026-07-15T00:00:00.000Z",
+            "team1": {
+                "name": "1. Yarı Final",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Dallas - AT&T Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m102",
+            "date_utc": "2026-07-16T00:00:00.000Z",
+            "team1": {
+                "name": "2. Yarı Final",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Atlanta - Mercedes-Benz Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m103",
+            "date_utc": "2026-07-18T20:00:00.000Z",
+            "team1": {
+                "name": "Üçüncülük / Bronz Madalya Maçı",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "Miami - Hard Rock Stadyumu",
+            "broadcaster": "TRT Spor"
+        },
+        {
+            "id": "m104",
+            "date_utc": "2026-07-19T20:00:00.000Z",
+            "team1": {
+                "name": "Dünya Kupası Final Maçı",
+                "flag": "🌍"
+            },
+            "team2": {
+                "name": "Belirsiz",
+                "flag": "🌍"
+            },
+            "group": "Eliminasyon",
+            "stadium": "New York New Jersey - MetLife Stadyumu",
+            "broadcaster": "TRT Spor"
+        }
+    ]
 }
