@@ -36,14 +36,17 @@ body {
 .app-header {
     background: rgba(255, 255, 255, 0.95);
     padding: 24px 20px 16px;
-    position: relative;
-    z-index: 10;
+    position: sticky;
+    top: 0;
+    z-index: 100;
     border-bottom: 1px solid rgba(227, 10, 23, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .header-content {
@@ -101,28 +104,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background: transparent;
-    padding: 0;
-    border-radius: 0;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--text-dark);
-    box-shadow: none;
-    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
 }
 
 #current-date {
-    font-size: 0.95rem;
+    font-size: 16px;
     font-weight: 800;
     color: var(--text-primary);
-    margin-bottom: 2px;
 }
 
 #current-time {
-    font-size: 0.85rem;
+    font-size: 14px;
     font-weight: 600;
-    color: var(--accent);
-    letter-spacing: 0.5px;
+    color: var(--text-secondary);
 }
 
 /* Main Content */

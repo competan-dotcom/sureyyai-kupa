@@ -14,8 +14,8 @@
             "group": "A Grubu",
             "stadium": "Estadio Azteca, Mexico City, Meksika",
             "broadcaster": "TRT Spor",
-            "score": "0 - 1",
-            "status": "finished"
+            "score": null,
+            "status": null
         },
         {
             "id": "m2",
@@ -31,8 +31,8 @@
             "group": "A Grubu",
             "stadium": "Estadio Akron, Meksika",
             "broadcaster": "TRT Spor",
-            "score": "2 - 1",
-            "status": "finished"
+            "score": null,
+            "status": null
         },
         {
             "id": "m3",
@@ -48,8 +48,8 @@
             "group": "B Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
             "broadcaster": "TRT Spor",
-            "score": "0 - 0",
-            "status": "finished"
+            "score": null,
+            "status": null
         },
         {
             "id": "m4",
@@ -65,8 +65,8 @@
             "group": "D Grubu",
             "stadium": "SoFi, Inglewood, ABD",
             "broadcaster": "TRT Spor",
-            "score": "1 - 2",
-            "status": "finished"
+            "score": null,
+            "status": null
         },
         {
             "id": "m5",
@@ -81,7 +81,9 @@
             },
             "group": "B Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m6",
@@ -96,7 +98,9 @@
             },
             "group": "C Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m7",
@@ -111,7 +115,9 @@
             },
             "group": "C Grubu",
             "stadium": "Gillette, Foxborough, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m8",
@@ -126,7 +132,9 @@
             },
             "group": "D Grubu",
             "stadium": "BC Place, Vancouver, Kanada",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m9",
@@ -141,7 +149,9 @@
             },
             "group": "E Grubu",
             "stadium": "NRG, Houston, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m10",
@@ -156,7 +166,9 @@
             },
             "group": "F Grubu",
             "stadium": "AT&T, Arlington, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m11",
@@ -171,7 +183,9 @@
             },
             "group": "E Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m12",
@@ -186,7 +200,9 @@
             },
             "group": "F Grubu",
             "stadium": "Estadio BBVA, Monterrey, Meksika",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m13",
@@ -201,7 +217,9 @@
             },
             "group": "H Grubu",
             "stadium": "Mercedes-Benz, Atlanta, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m14",
@@ -216,7 +234,9 @@
             },
             "group": "G Grubu",
             "stadium": "Lumen Field, Seattle, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m15",
@@ -231,7 +251,9 @@
             },
             "group": "H Grubu",
             "stadium": "Hard Rock, Miami Gardens, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m16",
@@ -246,7 +268,9 @@
             },
             "group": "G Grubu",
             "stadium": "SoFi, Inglewood, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m17",
@@ -261,7 +285,9 @@
             },
             "group": "I Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m18",
@@ -276,7 +302,9 @@
             },
             "group": "I Grubu",
             "stadium": "Gillette, Foxborough, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m19",
@@ -291,7 +319,9 @@
             },
             "group": "J Grubu",
             "stadium": "Arrowhead, Kansas City, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m20",
@@ -306,7 +336,9 @@
             },
             "group": "J Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m21",
@@ -321,7 +353,9 @@
             },
             "group": "K Grubu",
             "stadium": "Lumen Field, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m22",
@@ -336,7 +370,9 @@
             },
             "group": "L Grubu",
             "stadium": "AT&T, Arlington, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m23",
@@ -351,7 +387,9 @@
             },
             "group": "L Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m24",
@@ -366,7 +404,9 @@
             },
             "group": "K Grubu",
             "stadium": "Estadio Azteca, Mexico City, Meksika",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m25",
@@ -381,7 +421,9 @@
             },
             "group": "A Grubu",
             "stadium": "BMO Field, Kanada",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m26",
@@ -396,7 +438,9 @@
             },
             "group": "B Grubu",
             "stadium": "SoFi, Inglewood, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m27",
@@ -411,7 +455,9 @@
             },
             "group": "B Grubu",
             "stadium": "BC Place, Vancouver, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m28",
@@ -426,7 +472,9 @@
             },
             "group": "A Grubu",
             "stadium": "Estadio Akron, Zapopan, Meksika",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m29",
@@ -441,7 +489,9 @@
             },
             "group": "D Grubu",
             "stadium": "Lumen Field, Seattle, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m30",
@@ -456,7 +506,9 @@
             },
             "group": "C Grubu",
             "stadium": "Gillette, Foxborough, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m31",
@@ -471,7 +523,9 @@
             },
             "group": "C Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m32",
@@ -486,7 +540,9 @@
             },
             "group": "D Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m33",
@@ -501,7 +557,9 @@
             },
             "group": "F Grubu",
             "stadium": "NRG, Houston, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m34",
@@ -516,7 +574,9 @@
             },
             "group": "E Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m35",
@@ -531,7 +591,9 @@
             },
             "group": "E Grubu",
             "stadium": "Arrowhead, Kansas City, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m36",
@@ -546,7 +608,9 @@
             },
             "group": "F Grubu",
             "stadium": "Estadio BBVA, Monterrey, Meksika",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m37",
@@ -561,7 +625,9 @@
             },
             "group": "H Grubu",
             "stadium": "Mercedes-Benz, Atlanta, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m38",
@@ -576,7 +642,9 @@
             },
             "group": "G Grubu",
             "stadium": "SoFi, Inglewood, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m39",
@@ -591,7 +659,9 @@
             },
             "group": "H Grubu",
             "stadium": "Hard Rock, Miami Gardens, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m40",
@@ -606,7 +676,9 @@
             },
             "group": "G Grubu",
             "stadium": "BC Place, Vancouver, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m41",
@@ -621,7 +693,9 @@
             },
             "group": "I Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m42",
@@ -636,7 +710,9 @@
             },
             "group": "I Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m43",
@@ -651,7 +727,9 @@
             },
             "group": "J Grubu",
             "stadium": "AT&T, Arlington, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m44",
@@ -666,7 +744,9 @@
             },
             "group": "J Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m45",
@@ -681,7 +761,9 @@
             },
             "group": "K Grubu",
             "stadium": "NRG, Houston, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m46",
@@ -696,7 +778,9 @@
             },
             "group": "K Grubu",
             "stadium": "Gillette Stadyumu, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m47",
@@ -711,7 +795,9 @@
             },
             "group": "L Grubu",
             "stadium": "Gillette, Foxborough, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m48",
@@ -726,7 +812,9 @@
             },
             "group": "L Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m49",
@@ -741,7 +829,9 @@
             },
             "group": "A Grubu",
             "stadium": "Estadio Akron, Meksika",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m50",
@@ -756,7 +846,9 @@
             },
             "group": "A Grubu",
             "stadium": "Estadio BBVA, Monterrey, Meksika",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m51",
@@ -771,7 +863,9 @@
             },
             "group": "B Grubu",
             "stadium": "BC Place, Vancouver, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m52",
@@ -786,7 +880,9 @@
             },
             "group": "B Grubu",
             "stadium": "Lumen Field, Seattle, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m53",
@@ -801,7 +897,9 @@
             },
             "group": "C Grubu",
             "stadium": "Hard Rock, Miami Gardens, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m54",
@@ -816,7 +914,9 @@
             },
             "group": "C Grubu",
             "stadium": "Mercedes-Benz, Atlanta, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m55",
@@ -831,7 +931,9 @@
             },
             "group": "D Grubu",
             "stadium": "SoFi, Inglewood, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m56",
@@ -846,7 +948,9 @@
             },
             "group": "D Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m57",
@@ -861,7 +965,9 @@
             },
             "group": "E Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m58",
@@ -876,7 +982,9 @@
             },
             "group": "E Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m59",
@@ -891,7 +999,9 @@
             },
             "group": "F Grubu",
             "stadium": "Arrowhead, Kansas City, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m60",
@@ -906,7 +1016,9 @@
             },
             "group": "F Grubu",
             "stadium": "AT&T, Arlington, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m61",
@@ -921,7 +1033,9 @@
             },
             "group": "G Grubu",
             "stadium": "BC Place, Vancouver, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m62",
@@ -936,7 +1050,9 @@
             },
             "group": "G Grubu",
             "stadium": "Lumen Field, Seattle, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m63",
@@ -951,7 +1067,9 @@
             },
             "group": "H Grubu",
             "stadium": "Estadio Akron, Zapopan, Meksika",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m64",
@@ -966,7 +1084,9 @@
             },
             "group": "H Grubu",
             "stadium": "NRG, Houston, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m65",
@@ -981,7 +1101,9 @@
             },
             "group": "I Grubu",
             "stadium": "Gillette, Foxborough, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m66",
@@ -996,7 +1118,9 @@
             },
             "group": "I Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m67",
@@ -1011,7 +1135,9 @@
             },
             "group": "J Grubu",
             "stadium": "AT&T, Arlington, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m68",
@@ -1026,7 +1152,9 @@
             },
             "group": "J Grubu",
             "stadium": "Arrowhead, Kansas City, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m69",
@@ -1041,7 +1169,9 @@
             },
             "group": "K Grubu",
             "stadium": "Hard Rock, Miami Gardens, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m70",
@@ -1056,7 +1186,9 @@
             },
             "group": "K Grubu",
             "stadium": "MetLife Stadyumu, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m71",
@@ -1071,7 +1203,9 @@
             },
             "group": "L Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m72",
@@ -1086,7 +1220,9 @@
             },
             "group": "L Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m73",
@@ -1101,7 +1237,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Los Angeles, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m74",
@@ -1116,7 +1254,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Dallas, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m75",
@@ -1131,7 +1271,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Boston, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m76",
@@ -1146,7 +1288,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Atlanta, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m77",
@@ -1161,7 +1305,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "San Francisco, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m78",
@@ -1176,7 +1322,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "New York New Jersey, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m79",
@@ -1191,7 +1339,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Houston, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m80",
@@ -1206,7 +1356,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Monterrey, Meksika",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m81",
@@ -1221,7 +1373,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Orlando, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m82",
@@ -1236,7 +1390,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Miami, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m83",
@@ -1251,7 +1407,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Mexico City, Meksika",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m84",
@@ -1266,7 +1424,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Vancouver, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m85",
@@ -1281,7 +1441,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Kansas City, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m86",
@@ -1296,7 +1458,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Seattle, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m87",
@@ -1311,7 +1475,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Toronto, Kanada",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m88",
@@ -1326,7 +1492,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Philadelphia, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m89",
@@ -1341,7 +1509,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Houston, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m90",
@@ -1356,7 +1526,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "New York New Jersey, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m91",
@@ -1371,7 +1543,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Philadelphia, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m92",
@@ -1386,7 +1560,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Mexico City, Meksika",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m93",
@@ -1401,7 +1577,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Seattle, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m94",
@@ -1416,7 +1594,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Vancouver, Kanada",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m95",
@@ -1431,7 +1611,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Atlanta, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m96",
@@ -1446,7 +1628,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Boston, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m97",
@@ -1461,7 +1645,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Boston, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m98",
@@ -1476,7 +1662,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Los Angeles, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m99",
@@ -1491,7 +1679,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Miami, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m100",
@@ -1506,7 +1696,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Kansas City, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m101",
@@ -1521,7 +1713,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Dallas - AT&T Stadyumu, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m102",
@@ -1536,7 +1730,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Atlanta - Mercedes-Benz Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         },
         {
             "id": "m103",
@@ -1551,7 +1747,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "Miami - Hard Rock Stadyumu, ABD",
-            "broadcaster": "TRT 1"
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
         },
         {
             "id": "m104",
@@ -1566,7 +1764,9 @@
             },
             "group": "Eliminasyon",
             "stadium": "New York New Jersey - MetLife Stadyumu, ABD",
-            "broadcaster": "TRT Spor"
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
         }
     ]
 }
