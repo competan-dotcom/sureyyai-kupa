@@ -112,76 +112,69 @@ function findChannelInScrapedData(scrapedData, t1, t2) {
 }
 
 function processMatches(matches) {
-    const todayMatchesContainer = document.getElementById('today-matches');
-    const upcomingMatchesContainer = document.getElementById('upcoming-matches');
-    const allFixturesContainer = document.getElementById('all-fixtures');
+    const container = document.getElementById('all-fixtures');
+    if (!container) return; // If we're not on home tab
+    container.innerHTML = '';
     
-    todayMatchesContainer.innerHTML = '';
-    upcomingMatchesContainer.innerHTML = '';
-    allFixturesContainer.innerHTML = '';
-
-    // Simulate current date as June 11, 2026 for testing if we are before the tournament
-    // Otherwise use real today
-    let currentRealDate = new Date();
-    const tournamentStart = new Date('2026-06-11T00:00:00Z');
+    // Group matches by Date (TRT)
+    const formatter = new Intl.DateTimeFormat('tr-TR', { timeZone: 'Europe/Istanbul', year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' });
     
-    // For demonstration, if current date is before June 11, pretend it is June 11
-    if (currentRealDate < tournamentStart) {
-        currentRealDate = tournamentStart;
-    }
-
-    // Get start and end of "today" in TRT
-    const formatter = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Istanbul', year: 'numeric', month: '2-digit', day: '2-digit' });
-    const todayStr = formatter.format(currentRealDate); // YYYY-MM-DD in TRT
-
-    let todayMatches = [];
-    let upcomingMatches = [];
-
+    const grouped = {};
     matches.forEach(match => {
         const matchDateUTC = new Date(match.date_utc);
-        const matchDayStr = formatter.format(matchDateUTC);
-        
-        if (matchDayStr === todayStr) {
-            todayMatches.push(match);
-        } else if (matchDateUTC > currentRealDate) {
-            upcomingMatches.push(match);
-        }
-
-        // Add to all fixtures
-        allFixturesContainer.appendChild(createMatchCard(match));
+        const dateKey = formatter.format(matchDateUTC);
+        if (!grouped[dateKey]) grouped[dateKey] = [];
+        grouped[dateKey].push(match);
     });
 
-    // Render Today
-    if (todayMatches.length > 0) {
-        todayMatches.forEach(match => {
-            todayMatchesContainer.appendChild(createMatchCard(match));
-        });
-    } else {
-        todayMatchesContainer.innerHTML = '<div class="no-matches">Bugün maç bulunmamaktadır.</div>';
-    }
+    let elementToScrollTo = null;
 
-    // Render Upcoming
-    if (upcomingMatches.length > 0) {
-        // Just show the next 3 upcoming matches
-        upcomingMatches.slice(0, 3).forEach(match => {
-            upcomingMatchesContainer.appendChild(createMatchCard(match));
+    Object.keys(grouped).forEach(dateStr => {
+        const header = document.createElement('div');
+        header.className = 'date-header';
+        header.textContent = dateStr;
+        container.appendChild(header);
+
+        grouped[dateStr].forEach(match => {
+            const card = createMatchCard(match);
+            container.appendChild(card);
+            
+            // Set scroll target to the first date header where matches are NOT finished
+            if (!elementToScrollTo && match.status !== 'finished') {
+                elementToScrollTo = header;
+            }
         });
-    } else {
-        upcomingMatchesContainer.innerHTML = '<div class="no-matches">Yaklaşan maç bulunmamaktadır.</div>';
+    });
+
+    // Auto-Scroll Logic: Wait for DOM to render then scroll to the first upcoming match's date header
+    if (elementToScrollTo) {
+        setTimeout(() => {
+            // Smoothly scroll the page so the header is near the top (minus the fixed top nav height)
+            const y = elementToScrollTo.getBoundingClientRect().top + window.scrollY - 100;
+            window.scrollTo({top: y, behavior: 'smooth'});
+        }, 300);
     }
 }
 
 function createMatchCard(match) {
     const card = document.createElement('div');
     card.className = 'match-card';
+    if (match.status === 'finished') {
+        card.classList.add('completed');
+    }
 
     // Time Formatting (TRT)
     const matchDateUTC = new Date(match.date_utc);
     const timeOptions = { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Istanbul' };
-    const dateOptions = { day: 'numeric', month: 'short', timeZone: 'Europe/Istanbul' };
-    
     const timeStr = matchDateUTC.toLocaleTimeString('tr-TR', timeOptions);
-    const dateStr = matchDateUTC.toLocaleDateString('tr-TR', dateOptions);
+
+    let centerContent = `<span class="match-time">${timeStr}</span>`;
+    if (match.score) {
+        centerContent = `
+            <span class="match-time" style="font-size: 42px;">${match.score}</span>
+            <span class="match-date-badge" style="color: #64748b;">MAÇ SONUCU</span>
+        `;
+    }
 
     card.innerHTML = `
         <div class="match-header">
@@ -197,8 +190,7 @@ function createMatchCard(match) {
                 <span class="team-name">${match.team1.name}</span>
             </div>
             <div class="match-center">
-                <span class="match-time">${timeStr}</span>
-                <span class="match-date-badge">${dateStr}</span>
+                ${centerContent}
             </div>
             <div class="team">
                 <span class="flag">${match.team2.flag}</span>
