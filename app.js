@@ -160,7 +160,7 @@ function processMatches(matches) {
     if (elementToScrollTo) {
         setTimeout(() => {
             // Smoothly scroll the page so the header is near the top (minus the fixed top nav height)
-            const y = elementToScrollTo.getBoundingClientRect().top + window.scrollY - 100;
+            const y = elementToScrollTo.getBoundingClientRect().top + window.scrollY - 180;
             window.scrollTo({top: y, behavior: 'smooth'});
         }, 300);
     }
