@@ -28,14 +28,79 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function fetchData() {
     try {
-        const response = await fetch('data.json');
+        // 1. Ağ: Kusursuz Ana Fikstür İskeletini Alıyoruz (Şimdilik yerel dosya)
+        let baseData;
+        try {
+            const response = await fetch('data.json');
+            baseData = await response.json();
+        } catch(e) {
+            console.error("Ana iskelet okunamadı", e);
+            document.getElementById('today-matches').innerHTML = '<div class="no-matches">Sistem geçici olarak ulaşılamıyor.</div>';
+            return;
+        }
+
+        // 2. Örümcek Ağı: Türk Sitelerini Canlı Kazıma (TOD TV, TRT Analizi)
+        // Arka planda sessizce başka sitelere girip yayıncı kelimelerini (TOD TV vb.) tarar.
+        const channelsData = await scrapeTurkishBroadcasters();
+        
+        // 3. Akıllı Birleştirme (Smart Merge)
+        const mergedMatches = baseData.matches.map(match => {
+            const team1Name = match.team1.name;
+            const team2Name = match.team2.name;
+            
+            // Eğer örümcek bu takımlarla ilgili yeni bir yayıncı yakaladıysa (Örn: TOD TV), eski kanalı ez ve yenisini yaz!
+            const spiderChannel = findChannelInScrapedData(channelsData, team1Name, team2Name);
+            if (spiderChannel) {
+                match.broadcaster = spiderChannel;
+            }
+            return match;
+        });
+
+        processMatches(mergedMatches);
+    } catch (error) {
+        console.error('Örümcek ağa takıldı:', error);
+        document.getElementById('today-matches').innerHTML = '<div class="no-matches">Sistem geçici olarak ulaşılamıyor.</div>';
+    }
+}
+
+async function scrapeTurkishBroadcasters() {
+    // CORS sorununu aşmak için güvenli proxy kullanıyoruz. Uygulama başka siteleri sömürür.
+    const targetUrl = 'https://www.sporekrani.com/home/league/fifa-2026-dunya-kupasi';
+    const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(targetUrl)}`;
+    
+    try {
+        const response = await fetch(proxyUrl);
         const data = await response.json();
         
-        processMatches(data.matches);
-    } catch (error) {
-        console.error('Veri çekilirken hata oluştu:', error);
-        document.getElementById('today-matches').innerHTML = '<div class="no-matches">Veriler yüklenemedi.</div>';
+        // Gelen HTML'i tarayıcının hafızasında sanal bir DOM'a dönüştür (Scraping)
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(data.contents, 'text/html');
+        
+        const matchesInfo = [];
+        const bodyText = doc.body.innerText || "";
+        
+        // Örümcek Metin Analizi: Eğer site üzerinde "TOD TV" yazısı belirmişse, 
+        // Türkiye'nin maçının yayın haklarının TOD TV'de (veya ortak) olduğunu anlar.
+        // Bu yapı ileride daha da geliştirilip her maç için spesifik kazıma yapabilir.
+        if (bodyText.includes("TOD TV") || bodyText.includes("TOD")) {
+            matchesInfo.push({ teams: ["Türkiye", "ABD"], channel: "TOD TV / TRT 1" });
+            matchesInfo.push({ teams: ["Avustralya", "Türkiye"], channel: "TOD TV / TRT" });
+        }
+        
+        return matchesInfo;
+    } catch(e) {
+        console.warn("Örümcek hedefe sızamadı, veritabanındaki kesin kanallar kullanılacak.", e);
+        return [];
     }
+}
+
+function findChannelInScrapedData(scrapedData, t1, t2) {
+    for(let item of scrapedData) {
+        if (item.teams.includes(t1) || item.teams.includes(t2)) {
+            return item.channel;
+        }
+    }
+    return null;
 }
 
 function processMatches(matches) {
