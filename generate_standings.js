@@ -5,13 +5,11 @@ let groupsMap = {};
 
 // Filter only group matches
 data.matches.filter(m => m.group && m.group.includes('Grubu')).forEach(m => {
-    if (!groupsMap[m.group]) groupsMap[m.group] = new Map(); // using Map to deduplicate by team name
+    if (!groupsMap[m.group]) groupsMap[m.group] = new Map();
     
-    // Add team 1
     if (m.team1 && m.team1.name && !groupsMap[m.group].has(m.team1.name)) {
         groupsMap[m.group].set(m.team1.name, m.team1.flag);
     }
-    // Add team 2
     if (m.team2 && m.team2.name && !groupsMap[m.group].has(m.team2.name)) {
         groupsMap[m.group].set(m.team2.name, m.team2.flag);
     }
@@ -25,7 +23,7 @@ let standingsHTML = '';
 
 sortedGroups.forEach(g => {
     standingsHTML += `
-            <h2 class="section-title">\${g}</h2>
+            <h2 class="section-title">${g}</h2>
             <table class="mockup-table">
                 <thead>
                     <tr>
@@ -44,7 +42,7 @@ sortedGroups.forEach(g => {
     teams.forEach(([name, flag]) => {
         standingsHTML += `
                     <tr>
-                        <td class="team-cell"><span class="flag">\${flag}</span> \${name}</td>
+                        <td class="team-cell"><span class="flag">${flag}</span> ${name}</td>
                         <td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
                     </tr>`;
     });
