@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SüreyyaAI Dünya Kupasında</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Top Bar -->
+    <header class="app-header">
+        <div class="header-content">
+            <div>
+                <h1 class="app-title">SüreyyaAI</h1>
+                <div class="app-subtitle">Dünya Kupasında</div>
+            </div>
+            <div class="date-container">
+                <span id="current-date" class="current-date">--</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="app-main" id="main-content">
+        <!-- Home Tab -->
+        <section id="tab-home" class="tab-content active">
+            
+            <div class="hero-section">
+                <img src="logo.png" alt="SüreyyaAI Dünya Kupası" class="hero-logo">
+            </div>
+
+            <h2 class="section-title">Günün Maçları</h2>
+            <div id="today-matches" class="matches-container">
+                <!-- Matches will be injected here -->
+                <div class="loading">Yükleniyor...</div>
+            </div>
+
+            <h2 class="section-title mt-4">Yaklaşan Maçlar</h2>
+            <div id="upcoming-matches" class="matches-container">
+                <!-- Upcoming matches will be injected here -->
+            </div>
+        </section>
+
+        <!-- Fixtures Tab -->
+        <section id="tab-fixtures" class="tab-content">
+            <h2 class="section-title">Tüm Fikstür</h2>
+            <div id="all-fixtures" class="matches-container">
+                <!-- All matches here -->
+            </div>
+        </section>
+
+        <!-- Standings Tab -->
+        <section id="tab-standings" class="tab-content">
+            <h2 class="section-title">Puan Durumu</h2>
+            <div id="standings-container">
+                <p class="placeholder-text">Puan durumu yakında güncellenecektir.</p>
+                <!-- Standings table here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+        <button class="nav-item active" data-target="tab-home">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            <span>Bugün</span>
+        </button>
+        <button class="nav-item" data-target="tab-fixtures">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            <span>Fikstür</span>
+        </button>
+        <button class="nav-item" data-target="tab-standings">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            <span>Gruplar</span>
+        </button>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+</html>
