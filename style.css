@@ -189,14 +189,35 @@ body {
 }
 
 .match-tv {
-    background: #d81159; /* Premium Light Cherry */
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #cc0914 0%, #a0070e 100%);
     color: white;
-    padding: 6px 12px;
+    padding: 6px 14px;
     border-radius: 12px;
-    font-weight: 700;
-    box-shadow: 0 4px 10px rgba(216, 17, 89, 0.3);
+    font-weight: 800;
+    font-size: 0.75rem;
+    box-shadow: 0 4px 12px rgba(204, 9, 20, 0.3);
     display: inline-flex;
     align-items: center;
+    letter-spacing: 0.5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tv-watermark {
+    position: absolute;
+    right: -6px;
+    bottom: -8px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.15;
+    transform: rotate(-10deg);
+    pointer-events: none;
+}
+
+.tv-text {
+    position: relative;
+    z-index: 1;
 }
 
 .match-teams {
