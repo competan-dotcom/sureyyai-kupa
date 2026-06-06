@@ -16,11 +16,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Date Header Logic
-    const dateHeader = document.getElementById('current-date');
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Europe/Istanbul' };
-    const today = new Date();
-    dateHeader.textContent = today.toLocaleDateString('tr-TR', options);
+    // Date and Time Header Logic
+    const updateTime = () => {
+        const today = new Date();
+        const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Europe/Istanbul' };
+        const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit', timeZone: 'Europe/Istanbul' };
+        
+        document.getElementById('current-date').textContent = today.toLocaleDateString('tr-TR', dateOptions);
+        document.getElementById('current-time').textContent = today.toLocaleTimeString('tr-TR', timeOptions);
+    };
+    
+    updateTime();
+    setInterval(updateTime, 1000);
 
     // Fetch and Render Data
     fetchData();

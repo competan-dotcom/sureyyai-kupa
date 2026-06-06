@@ -12,12 +12,12 @@
     <!-- Header / Top Bar -->
     <header class="app-header">
         <div class="header-content">
-            <div>
-                <h1 class="app-title">Süreyyai</h1>
-                <div class="app-subtitle">Dünya Kupasında</div>
+            <div class="header-logo-container">
+                <img src="logo.png" alt="Süreyyai" class="header-logo">
             </div>
             <div class="date-container">
-                <span id="current-date" class="current-date">--</span>
+                <div id="current-date"></div>
+                <div id="current-time"></div>
             </div>
         </div>
     </header>
@@ -27,10 +27,6 @@
         <!-- Home Tab -->
         <section id="tab-home" class="tab-content active">
             
-            <div class="hero-section">
-                <img src="logo.png" alt="Süreyyai Dünya Kupası" class="hero-logo">
-            </div>
-
             <h2 class="section-title">Günün Maçları</h2>
             <div id="today-matches" class="matches-container">
                 <!-- Matches will be injected here -->
