@@ -189,12 +189,14 @@ body {
 }
 
 .match-tv {
-    background: var(--accent);
+    background: #d81159; /* Premium Light Cherry */
     color: white;
     padding: 6px 12px;
     border-radius: 12px;
     font-weight: 700;
-    box-shadow: 0 4px 10px var(--accent-glow);
+    box-shadow: 0 4px 10px rgba(216, 17, 89, 0.3);
+    display: inline-flex;
+    align-items: center;
 }
 
 .match-teams {

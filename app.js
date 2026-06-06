@@ -186,7 +186,10 @@ function createMatchCard(match) {
     card.innerHTML = `
         <div class="match-header">
             <span class="match-group">${match.group}</span>
-            <span class="match-tv">${match.broadcaster}</span>
+            <span class="match-tv">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
+                ${match.broadcaster}
+            </span>
         </div>
         <div class="match-teams">
             <div class="team">
