@@ -190,21 +190,7 @@ function createMatchCard(match) {
     }
 
     let footerContent = '';
-    
-    if (match.status === 'finished') {
-        const query = encodeURIComponent(`${match.team1.name} ${match.team2.name} 2026`);
-        footerContent = `
-        <div class="match-footer" style="flex-direction: column;">
-            ${match.stadium ? `<div style="display:flex; align-items:center; justify-content:center; gap:6px; margin-bottom: 8px;">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
-                ${match.stadium}
-            </div>` : ''}
-            <a href="https://footballia.net/tr/search?utf8=✓&q=${query}" target="_blank" style="display:inline-block; padding:8px 16px; background:#e30a17; color:white; border-radius:8px; text-decoration:none; font-weight:600; font-size:12px; transition: opacity 0.2s;">
-                ▶ Maçı Tamamını İzle (Footballia)
-            </a>
-        </div>
-        `;
-    } else if (match.stadium) {
+    if (match.stadium) {
         footerContent = `
         <div class="match-footer">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px; flex-shrink: 0;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
