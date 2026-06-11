@@ -48,7 +48,7 @@ async function fetchData() {
         // 1. Ağ: Kusursuz Ana Fikstür İskeletini Alıyoruz
         let baseData;
         try {
-            const response = await fetch('data.json');
+            const response = await fetch('data.json?v=' + Date.now());
             baseData = await response.json();
         } catch(e) {
             console.error("Ana iskelet okunamadı", e);
