@@ -131,12 +131,28 @@
                 });
             }
 
-            // Normalde burada GitHub API'sine istek atılır
-            setTimeout(() => {
-                status.textContent = "✅ Değişiklikler başarıyla GitHub'a pushlandı! Netlify 10 sn içinde güncelleyecek.";
+            // Node.js sunucusuna POST atıyoruz
+            try {
+                const response = await fetch('/save', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(currentData)
+                });
+                
+                const result = await response.json();
+                if (result.success) {
+                    status.textContent = "✅ Değişiklikler başarıyla GitHub'a pushlandı! Netlify 10 sn içinde güncelleyecek.";
+                } else {
+                    status.textContent = "❌ Hata: " + result.error;
+                    status.style.color = "#ef4444";
+                }
+            } catch (err) {
+                status.textContent = "❌ Sunucu bağlantı hatası! admin-server.js'nin çalıştığından emin ol.";
+                status.style.color = "#ef4444";
+            } finally {
                 btn.textContent = "TÜM DEĞİŞİKLİKLERİ YAYINLA";
                 btn.disabled = false;
-            }, 1500);
+            }
         });
 
         loadMatches();
