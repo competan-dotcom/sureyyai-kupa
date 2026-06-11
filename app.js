@@ -57,7 +57,7 @@ async function fetchData() {
         }
 
         // KULLANICIYI BEKLETMEMEK İÇİN ANA VERİYİ HEMEN EKRANA BASIYORUZ!
-        processMatches(baseData.matches);
+        processMatches(baseData.matches); renderTopScorers(baseData.topScorers);
 
         // 2. Örümcek Ağı: Arka planda sessizce çalışır, ekranı dondurmaz.
         scrapeTurkishBroadcasters().then(channelsData => {
@@ -313,4 +313,29 @@ function renderStandings(matches) {
     });
     
     container.innerHTML = newHtml;
+}
+
+
+function renderTopScorers(topScorers) {
+    const container = document.getElementById('top-scorers-container');
+    if (!container || !topScorers) return;
+    
+    let html = '';
+    topScorers.forEach((ts, idx) => {
+        html += `
+        <div class="mockup-stat-card">
+            <div class="mockup-stat-left">
+                <span class="mockup-stat-rank">${idx + 1}</span>
+                <span class="flag">${ts.flag}</span>
+                <div class="mockup-stat-info">
+                    <h4>${ts.name}</h4>
+                    <p>${ts.team}</p>
+                </div>
+            </div>
+            <div class="mockup-stat-value" style="color: var(--accent); font-weight:800;">${ts.goals}</div>
+        </div>
+        `;
+    });
+    
+    container.innerHTML = html;
 }

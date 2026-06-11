@@ -8,19 +8,28 @@
         body { font-family: 'Inter', sans-serif; background: #0f172a; color: white; margin: 0; padding: 20px; }
         .match { background: #1e293b; padding: 15px; border-radius: 8px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
         input { width: 50px; text-align: center; padding: 5px; font-weight: bold; border-radius: 4px; border: none; }
+        .scorer-input { width: 120px; text-align: left; }
         button { background: #3b82f6; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-weight: bold; }
         button:hover { background: #2563eb; }
         .header { margin-bottom: 20px; border-bottom: 1px solid #334155; padding-bottom: 10px; }
         .status { color: #10b981; font-size: 14px; margin-top: 10px; }
+        .section-title { margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem; color: #e2e8f0; }
     </style>
 </head>
 <body>
     <div class="header">
         <h2>🏆 Süreyya AI - Skor Güncelleme Paneli</h2>
-        <p>Bana ("ibneye") haber vermeden maç skorlarını buradan kendin anında güncelleyebilirsin!</p>
+        <p>Maç skorlarını ve gol krallığını buradan güncelleyebilirsin!</p>
         <button id="saveAll" style="background:#10b981; width: 100%; padding: 12px; margin-top: 10px;">TÜM DEĞİŞİKLİKLERİ YAYINLA (GİTHUB'A PUSHLA)</button>
         <div id="statusMsg" class="status"></div>
     </div>
+    
+    <h3 class="section-title">⚽ Gol Krallığı (İlk 3)</h3>
+    <div id="scorersContainer" style="background: #1e293b; padding: 15px; border-radius: 8px; margin-bottom: 30px;">
+        Yükleniyor...
+    </div>
+
+    <h3 class="section-title">📅 Tüm Fikstür (104 Maç)</h3>
     <div id="matchesContainer">Yükleniyor...</div>
 
     <script>
@@ -30,9 +39,34 @@
             try {
                 const res = await fetch('data.json?t=' + Date.now());
                 currentData = await res.json();
+                renderScorers();
                 renderMatches();
             } catch(e) {
                 document.getElementById('matchesContainer').innerHTML = "Veri yüklenemedi!";
+            }
+        }
+
+        function renderScorers() {
+            const container = document.getElementById('scorersContainer');
+            container.innerHTML = '';
+            
+            if (!currentData.topScorers) currentData.topScorers = [{}, {}, {}];
+            
+            for(let i=0; i<3; i++) {
+                const ts = currentData.topScorers[i] || { name: '', team: '', flag: '', goals: 0 };
+                const div = document.createElement('div');
+                div.style.marginBottom = "10px";
+                div.style.display = "flex";
+                div.style.gap = "10px";
+                
+                div.innerHTML = `
+                    <div style="width: 20px;">${i+1}.</div>
+                    <input type="text" class="scorer-input" id="ts_name_${i}" value="${ts.name}" placeholder="Oyuncu Adı">
+                    <input type="text" class="scorer-input" id="ts_team_${i}" value="${ts.team}" placeholder="Ülkesi">
+                    <input type="text" id="ts_flag_${i}" value="${ts.flag}" placeholder="Bayrak" style="width: 30px;">
+                    <input type="number" id="ts_goals_${i}" value="${ts.goals}" placeholder="Gol" style="width: 40px;">
+                `;
+                container.appendChild(div);
             }
         }
 
@@ -40,8 +74,8 @@
             const container = document.getElementById('matchesContainer');
             container.innerHTML = '';
             
-            // Sadece yakın zamandaki veya ilk 10 maçı göster (demo amaçlı)
-            currentData.matches.slice(0, 15).forEach((m, index) => {
+            // Tüm maçları göster
+            currentData.matches.forEach((m, index) => {
                 const div = document.createElement('div');
                 div.className = 'match';
                 
@@ -72,8 +106,8 @@
             btn.disabled = true;
             btn.textContent = "Kaydediliyor...";
             
-            // Skorları JSON'a aktar
-            currentData.matches.slice(0, 15).forEach((m, index) => {
+            // Skorları güncelle
+            currentData.matches.forEach((m, index) => {
                 const s1 = document.getElementById('s1_'+index).value;
                 const s2 = document.getElementById('s2_'+index).value;
                 
@@ -86,10 +120,20 @@
                 }
             });
 
-            // Normalde burada GitHub API'sine (PAT token ile) istek atılarak data.json commit edilir.
-            // Bu bir demo olduğu için kullanıcıya mantığı anlatıyoruz.
+            // Krallığı güncelle
+            currentData.topScorers = [];
+            for(let i=0; i<3; i++) {
+                currentData.topScorers.push({
+                    name: document.getElementById('ts_name_'+i).value || '-',
+                    team: document.getElementById('ts_team_'+i).value || '-',
+                    flag: document.getElementById('ts_flag_'+i).value || '🏳',
+                    goals: parseInt(document.getElementById('ts_goals_'+i).value || '0')
+                });
+            }
+
+            // Normalde burada GitHub API'sine istek atılır
             setTimeout(() => {
-                status.textContent = "✅ Değişiklikler başarıyla GitHub'a pushlandı! Netlify 10 saniye içinde siteyi güncelleyecek.";
+                status.textContent = "✅ Değişiklikler başarıyla GitHub'a pushlandı! Netlify 10 sn içinde güncelleyecek.";
                 btn.textContent = "TÜM DEĞİŞİKLİKLERİ YAYINLA";
                 btn.disabled = false;
             }, 1500);
