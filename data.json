@@ -14,8 +14,8 @@
             "group": "A Grubu",
             "stadium": "Estadio Azteca, Mexico City, Meksika",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "2-1",
+            "status": "finished"
         },
         {
             "id": "m2",

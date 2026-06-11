@@ -138,6 +138,9 @@ function processMatches(matches) {
     });
 
     let elementToScrollTo = null;
+    
+    // RENDER DYNAMIC STANDINGS
+    renderStandings(matches);
 
     Object.keys(grouped).forEach(dateStr => {
         const header = document.createElement('div');
