@@ -9,27 +9,18 @@
         .match { background: #1e293b; padding: 15px; border-radius: 8px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center; }
         input { width: 50px; text-align: center; padding: 5px; font-weight: bold; border-radius: 4px; border: none; }
         .scorer-input { width: 120px; text-align: left; }
-        .token-input { width: 100%; text-align: left; padding: 10px; margin-top: 10px; box-sizing: border-box; }
         button { background: #3b82f6; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-weight: bold; }
         button:hover { background: #2563eb; }
         .header { margin-bottom: 20px; border-bottom: 1px solid #334155; padding-bottom: 10px; }
         .status { color: #10b981; font-size: 14px; margin-top: 10px; }
         .section-title { margin-top: 30px; margin-bottom: 15px; font-size: 1.2rem; color: #e2e8f0; }
-        #settingsContainer { background: #334155; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
     </style>
 </head>
 <body>
     <div class="header">
         <h2>🏆 Süreyya AI - Skor Güncelleme Paneli</h2>
-        <p>Maç skorlarını ve gol krallığını buradan güncelleyebilirsin!</p>
-        
-        <div id="settingsContainer">
-            <label style="font-size:14px; font-weight:bold;">🔑 GitHub Token (Ayarları kaydetmek için sadece 1 kez girilir)</label><br>
-            <input type="password" id="githubToken" class="token-input" placeholder="ghp_xxxxxxxxxxxxxxxxx">
-            <p style="font-size: 12px; color: #cbd5e1; margin-top:5px;">Sunucusuz (serverless) çalışması için bu token ile doğrudan GitHub'a bağlanacağız.</p>
-        </div>
-
-        <button id="saveAll" style="background:#10b981; width: 100%; padding: 12px; margin-top: 10px;">TÜM DEĞİŞİKLİKLERİ YAYINLA</button>
+        <button id="saveBtn">TÜM DEĞİŞİKLİKLERİ KOPYALA</button>
+        <p style="font-size: 12px; color: #64748b; margin-top: 10px;">Butona basarak güncel veriyi kopyalayıp Süreyya'ya yapıştırabilirsin!</p>
         <div id="statusMsg" class="status"></div>
     </div>
     
@@ -42,22 +33,10 @@
     <div id="matchesContainer">Yükleniyor...</div>
 
     <script>
-        const REPO_OWNER = 'competan-dotcom';
-        const REPO_NAME = 'sureyyai-kupa';
-        const FILE_PATH = 'data.json';
-        
         let currentData = null;
-        let fileSha = null;
-
-        // Token yönetimi
-        const savedToken = localStorage.getItem('github_pat');
-        if (savedToken) {
-            document.getElementById('githubToken').value = savedToken;
-        }
 
         async function loadMatches() {
             try {
-                // Her seferinde taze veri al
                 const res = await fetch('data.json?t=' + Date.now());
                 currentData = await res.json();
                 renderScorers();
@@ -123,30 +102,21 @@
             });
         }
 
-        function utf8_to_b64(str) {
-            return window.btoa(unescape(encodeURIComponent(str)));
-        }
+        async function copyJsonData() {
+            const btn = document.getElementById('saveBtn');
+            btn.textContent = 'KOPYALANIYOR...';
+            btn.disabled = true;
 
-        document.getElementById('saveAll').addEventListener('click', async () => {
-            const token = document.getElementById('githubToken').value.trim();
-            const status = document.getElementById('statusMsg');
-            const btn = document.getElementById('saveAll');
-
-            if (!token) {
-                status.textContent = "❌ Lütfen önce GitHub Token girin!";
-                status.style.color = "#ef4444";
-                return;
+            currentData.topScorers = [];
+            for(let i=0; i<3; i++) {
+                currentData.topScorers.push({
+                    name: document.getElementById('ts_name_'+i).value || '-',
+                    team: document.getElementById('ts_team_'+i).value || '-',
+                    flag: document.getElementById('ts_flag_'+i).value || '🏳',
+                    goals: parseInt(document.getElementById('ts_goals_'+i).value || '0')
+                });
             }
 
-            // Tokeni kaydet
-            localStorage.setItem('github_pat', token);
-
-            btn.disabled = true;
-            btn.textContent = "Kaydediliyor...";
-            status.textContent = "GitHub'a bağlanılıyor...";
-            status.style.color = "#f59e0b";
-            
-            // Skorları güncelle
             currentData.matches.forEach((m, index) => {
                 const s1 = document.getElementById('s1_'+index).value;
                 const s2 = document.getElementById('s2_'+index).value;
@@ -160,57 +130,27 @@
                 }
             });
 
-            // Krallığı güncelle
-            currentData.topScorers = [];
-            for(let i=0; i<3; i++) {
-                currentData.topScorers.push({
-                    name: document.getElementById('ts_name_'+i).value || '-',
-                    team: document.getElementById('ts_team_'+i).value || '-',
-                    flag: document.getElementById('ts_flag_'+i).value || '🏳',
-                    goals: parseInt(document.getElementById('ts_goals_'+i).value || '0')
-                });
-            }
+            const newJsonStr = JSON.stringify(currentData, null, 4);
 
             try {
-                // 1. Önce dosyanın SHA'sını al
-                const getRes = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
-                    headers: { 'Authorization': 'Bearer ' + token }
-                });
-                
-                if (!getRes.ok) throw new Error("GitHub bağlantı hatası (Token yanlış olabilir)");
-                
-                const getJson = await getRes.json();
-                fileSha = getJson.sha;
-
-                // 2. Güncellenmiş dosyayı Pushla
-                const contentStr = JSON.stringify(currentData, null, 4);
-                const encodedContent = utf8_to_b64(contentStr);
-
-                const putRes = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
-                    method: 'PUT',
-                    headers: {
-                        'Authorization': 'Bearer ' + token,
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        message: "Admin panelinden skor güncellemesi",
-                        content: encodedContent,
-                        sha: fileSha
-                    })
-                });
-
-                if (!putRes.ok) throw new Error("GitHub'a yazılamadı (Token yetkisi yetersiz)");
-
-                status.textContent = "✅ Değişiklikler başarıyla kaydedildi! Site 15 sn içinde güncellenecek.";
-                status.style.color = "#10b981";
+                await navigator.clipboard.writeText(newJsonStr);
+                btn.style.background = '#10b981';
+                btn.textContent = 'KOPYALANDI! SÜREYYA\\'YA YAPIŞTIR';
+                setTimeout(() => {
+                    btn.style.background = '#3b82f6';
+                    btn.textContent = 'TÜM DEĞİŞİKLİKLERİ KOPYALA';
+                    btn.disabled = false;
+                }, 4000);
             } catch (err) {
-                status.textContent = "❌ Hata: " + err.message;
-                status.style.color = "#ef4444";
-            } finally {
-                btn.textContent = "TÜM DEĞİŞİKLİKLERİ YAYINLA";
+                alert('Kopyalama başarısız oldu. Tarayıcın buna izin vermiyor olabilir.');
+                console.error(err);
+                btn.style.background = '#3b82f6';
+                btn.textContent = 'TÜM DEĞİŞİKLİKLERİ KOPYALA';
                 btn.disabled = false;
             }
-        });
+        }
+
+        document.getElementById('saveBtn').addEventListener('click', copyJsonData);
 
         loadMatches();
     </script>
