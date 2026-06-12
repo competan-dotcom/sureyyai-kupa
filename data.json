@@ -13,7 +13,7 @@
             },
             "group": "A Grubu",
             "stadium": "Estadio Azteca, Mexico City, Meksika",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": "2-0",
             "status": "finished"
         },
@@ -30,9 +30,9 @@
             },
             "group": "A Grubu",
             "stadium": "Estadio Akron, Meksika",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "broadcaster": "TRT1",
+            "score": "1-0",
+            "status": "finished"
         },
         {
             "id": "m3",
@@ -47,7 +47,7 @@
             },
             "group": "B Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -64,7 +64,7 @@
             },
             "group": "D Grubu",
             "stadium": "SoFi, Inglewood, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -81,7 +81,7 @@
             },
             "group": "B Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -98,7 +98,7 @@
             },
             "group": "C Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -115,7 +115,7 @@
             },
             "group": "C Grubu",
             "stadium": "Gillette, Foxborough, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRTSPOR",
             "score": null,
             "status": null
         },
@@ -132,7 +132,7 @@
             },
             "group": "D Grubu",
             "stadium": "BC Place, Vancouver, Kanada",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -149,7 +149,7 @@
             },
             "group": "E Grubu",
             "stadium": "NRG, Houston, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -166,7 +166,7 @@
             },
             "group": "F Grubu",
             "stadium": "AT&T, Arlington, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -183,7 +183,7 @@
             },
             "group": "E Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRTSPOR",
             "score": null,
             "status": null
         },
@@ -200,7 +200,7 @@
             },
             "group": "F Grubu",
             "stadium": "Estadio BBVA, Monterrey, Meksika",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -217,7 +217,7 @@
             },
             "group": "H Grubu",
             "stadium": "Mercedes-Benz, Atlanta, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -234,7 +234,7 @@
             },
             "group": "G Grubu",
             "stadium": "Lumen Field, Seattle, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -251,7 +251,7 @@
             },
             "group": "H Grubu",
             "stadium": "Hard Rock, Miami Gardens, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRTSPOR",
             "score": null,
             "status": null
         },
@@ -268,7 +268,7 @@
             },
             "group": "G Grubu",
             "stadium": "SoFi, Inglewood, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -285,7 +285,7 @@
             },
             "group": "I Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -302,7 +302,7 @@
             },
             "group": "I Grubu",
             "stadium": "Gillette, Foxborough, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRTSPOR",
             "score": null,
             "status": null
         },
@@ -319,7 +319,7 @@
             },
             "group": "J Grubu",
             "stadium": "Arrowhead, Kansas City, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -336,7 +336,7 @@
             },
             "group": "J Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -353,7 +353,7 @@
             },
             "group": "K Grubu",
             "stadium": "Lumen Field, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -370,7 +370,7 @@
             },
             "group": "L Grubu",
             "stadium": "AT&T, Arlington, ABD",
-            "broadcaster": "TRT 1",
+            "broadcaster": "TRT1",
             "score": null,
             "status": null
         },
@@ -1767,6 +1767,26 @@
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
+        }
+    ],
+    "topScorers": [
+        {
+            "name": "Julian Quinones",
+            "team": "Meksika",
+            "flag": "🇲🇽",
+            "goals": 1
+        },
+        {
+            "name": "Raul Jimenez",
+            "team": "Meksika",
+            "flag": "🇲🇽",
+            "goals": 1
+        },
+        {
+            "name": "Son Heung-min",
+            "team": "Güney Kore",
+            "flag": "🇰🇷",
+            "goals": 1
         }
     ]
 }
