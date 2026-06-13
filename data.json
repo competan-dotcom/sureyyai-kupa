@@ -48,8 +48,8 @@
             "group": "B Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "2-1",
+            "status": "finished"
         },
         {
             "id": "m4",
@@ -65,8 +65,8 @@
             "group": "D Grubu",
             "stadium": "SoFi, Inglewood, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "3-1",
+            "status": "finished"
         },
         {
             "id": "m5",
@@ -1771,21 +1771,21 @@
     ],
     "topScorers": [
         {
+            "name": "Christian Pulisic",
+            "team": "ABD",
+            "flag": "🇺🇸",
+            "goals": 2
+        },
+        {
             "name": "Julian Quinones",
             "team": "Meksika",
             "flag": "🇲🇽",
             "goals": 1
         },
         {
-            "name": "Raul Jimenez",
-            "team": "Meksika",
-            "flag": "🇲🇽",
-            "goals": 1
-        },
-        {
-            "name": "Son Heung-min",
-            "team": "Güney Kore",
-            "flag": "🇰🇷",
+            "name": "Jonathan David",
+            "team": "Kanada",
+            "flag": "🇨🇦",
             "goals": 1
         }
     ]
