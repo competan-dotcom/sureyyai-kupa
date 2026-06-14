@@ -150,8 +150,8 @@
             "group": "E Grubu",
             "stadium": "NRG, Houston, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "5-1",
+            "status": "finished"
         },
         {
             "id": "m10",
