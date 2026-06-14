@@ -82,8 +82,8 @@
             "group": "B Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "1-1",
+            "status": "finished"
         },
         {
             "id": "m6",
@@ -99,8 +99,8 @@
             "group": "C Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "1-1",
+            "status": "finished"
         },
         {
             "id": "m7",
@@ -116,8 +116,8 @@
             "group": "C Grubu",
             "stadium": "Gillette, Foxborough, ABD",
             "broadcaster": "TRTSPOR",
-            "score": null,
-            "status": null
+            "score": "0-1",
+            "status": "finished"
         },
         {
             "id": "m8",
