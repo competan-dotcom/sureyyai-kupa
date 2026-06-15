@@ -167,8 +167,8 @@
             "group": "F Grubu",
             "stadium": "AT&T, Arlington, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "2-2",
+            "status": "finished"
         },
         {
             "id": "m11",
@@ -184,8 +184,8 @@
             "group": "E Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
             "broadcaster": "TRTSPOR",
-            "score": null,
-            "status": null
+            "score": "1-0",
+            "status": "finished"
         },
         {
             "id": "m12",
@@ -201,8 +201,8 @@
             "group": "F Grubu",
             "stadium": "Estadio BBVA, Monterrey, Meksika",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "3-1",
+            "status": "finished"
         },
         {
             "id": "m13",
