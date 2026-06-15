@@ -218,8 +218,8 @@
             "group": "H Grubu",
             "stadium": "Mercedes-Benz, Atlanta, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "0-0",
+            "status": "finished"
         },
         {
             "id": "m14",
