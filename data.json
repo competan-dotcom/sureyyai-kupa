@@ -235,8 +235,8 @@
             "group": "G Grubu",
             "stadium": "Lumen Field, Seattle, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "1-1",
+            "status": "finished"
         },
         {
             "id": "m15",
@@ -252,8 +252,8 @@
             "group": "H Grubu",
             "stadium": "Hard Rock, Miami Gardens, ABD",
             "broadcaster": "TRTSPOR",
-            "score": null,
-            "status": null
+            "score": "1-1",
+            "status": "finished"
         },
         {
             "id": "m16",
@@ -269,8 +269,8 @@
             "group": "G Grubu",
             "stadium": "SoFi, Inglewood, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "2-2",
+            "status": "finished"
         },
         {
             "id": "m17",
@@ -1773,19 +1773,16 @@
         {
             "name": "Folarin Balogun",
             "team": "ABD",
-            "flag": "🇺🇸",
+            "goals": 2
+        },
+        {
+            "name": "Elijah Just",
+            "team": "Yeni Zelanda",
             "goals": 2
         },
         {
             "name": "Julian Quinones",
             "team": "Meksika",
-            "flag": "🇲🇽",
-            "goals": 1
-        },
-        {
-            "name": "Cyle Larin",
-            "team": "Kanada",
-            "flag": "🇨🇦",
             "goals": 1
         }
     ]
