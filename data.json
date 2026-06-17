@@ -286,8 +286,8 @@
             "group": "I Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "3-1",
+            "status": "finished"
         },
         {
             "id": "m18",
@@ -303,8 +303,8 @@
             "group": "I Grubu",
             "stadium": "Gillette, Foxborough, ABD",
             "broadcaster": "TRTSPOR",
-            "score": null,
-            "status": null
+            "score": "1-4",
+            "status": "finished"
         },
         {
             "id": "m19",
@@ -320,8 +320,8 @@
             "group": "J Grubu",
             "stadium": "Arrowhead, Kansas City, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "3-0",
+            "status": "finished"
         },
         {
             "id": "m20",
@@ -337,8 +337,8 @@
             "group": "J Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
             "broadcaster": "TRT1",
-            "score": null,
-            "status": null
+            "score": "3-1",
+            "status": "finished"
         },
         {
             "id": "m21",
@@ -1771,19 +1771,34 @@
     ],
     "topScorers": [
         {
+            "name": "Lionel Messi",
+            "team": "Arjantin",
+            "flag": "🇦🇷",
+            "goals": 3
+        },
+        {
+            "name": "Kylian Mbappé",
+            "team": "Fransa",
+            "flag": "🇫🇷",
+            "goals": 2
+        },
+        {
+            "name": "Erling Haaland",
+            "team": "Norveç",
+            "flag": "🇳🇴",
+            "goals": 2
+        },
+        {
             "name": "Folarin Balogun",
             "team": "ABD",
+            "flag": "🇺🇸",
             "goals": 2
         },
         {
             "name": "Elijah Just",
             "team": "Yeni Zelanda",
+            "flag": "🇳🇿",
             "goals": 2
-        },
-        {
-            "name": "Julian Quinones",
-            "team": "Meksika",
-            "goals": 1
         }
     ]
 }
