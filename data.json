@@ -490,8 +490,8 @@
             "group": "D Grubu",
             "stadium": "Lumen Field, Seattle, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-0",
+            "status": "finished"
         },
         {
             "id": "m30",
@@ -507,8 +507,8 @@
             "group": "C Grubu",
             "stadium": "Gillette, Foxborough, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-1",
+            "status": "finished"
         },
         {
             "id": "m31",
@@ -524,8 +524,8 @@
             "group": "C Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-0",
+            "status": "finished"
         },
         {
             "id": "m32",
@@ -541,8 +541,8 @@
             "group": "D Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-1",
+            "status": "finished"
         },
         {
             "id": "m33",
@@ -1816,6 +1816,12 @@
             "name": "Johan Manzambi",
             "team": "İsviçre",
             "flag": "🇨🇭",
+            "goals": 2
+        },
+        {
+            "name": "Matheus Cunha",
+            "team": "Brezilya",
+            "flag": "🇧🇷",
             "goals": 2
         }
     ]
