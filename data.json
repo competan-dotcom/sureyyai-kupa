@@ -558,8 +558,8 @@
             "group": "F Grubu",
             "stadium": "NRG, Houston, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "5-1",
+            "status": "finished"
         },
         {
             "id": "m34",
@@ -575,8 +575,8 @@
             "group": "E Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-1",
+            "status": "finished"
         },
         {
             "id": "m35",
@@ -592,8 +592,8 @@
             "group": "E Grubu",
             "stadium": "Arrowhead, Kansas City, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-0",
+            "status": "finished"
         },
         {
             "id": "m36",
@@ -609,8 +609,8 @@
             "group": "F Grubu",
             "stadium": "Estadio BBVA, Monterrey, Meksika",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-4",
+            "status": "finished"
         },
         {
             "id": "m37",
@@ -1822,6 +1822,30 @@
             "name": "Matheus Cunha",
             "team": "Brezilya",
             "flag": "🇧🇷",
+            "goals": 2
+        },
+        {
+            "name": "Brian Brobbey",
+            "team": "Hollanda",
+            "flag": "🇳🇱",
+            "goals": 2
+        },
+        {
+            "name": "Cody Gakpo",
+            "team": "Hollanda",
+            "flag": "🇳🇱",
+            "goals": 2
+        },
+        {
+            "name": "Deniz Undav",
+            "team": "Almanya",
+            "flag": "🇩🇪",
+            "goals": 2
+        },
+        {
+            "name": "Ayase Ueda",
+            "team": "Japonya",
+            "flag": "🇯🇵",
             "goals": 2
         }
     ]
