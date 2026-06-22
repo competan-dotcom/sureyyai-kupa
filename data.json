@@ -801,7 +801,7 @@
         },
         {
             "id": "m46",
-            "date_utc": "2026-06-24T04:00:00.000Z",
+            "date_utc": "2026-06-24T02:00:00.000Z",
             "team1": {
                 "name": "Kolombiya",
                 "flag": "🇨🇴"
@@ -851,6 +851,40 @@
             "status": null
         },
         {
+            "id": "m53",
+            "date_utc": "2026-06-24T22:00:00.000Z",
+            "team1": {
+                "name": "Brezilya",
+                "flag": "🇧🇷"
+            },
+            "team2": {
+                "name": "İskoçya",
+                "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+            },
+            "group": "C Grubu",
+            "stadium": "Hard Rock, Miami Gardens, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m54",
+            "date_utc": "2026-06-24T22:00:00.000Z",
+            "team1": {
+                "name": "Fas",
+                "flag": "🇲🇦"
+            },
+            "team2": {
+                "name": "Haiti",
+                "flag": "🇭🇹"
+            },
+            "group": "C Grubu",
+            "stadium": "Mercedes-Benz, Atlanta, ABD",
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
+        },
+        {
             "id": "m49",
             "date_utc": "2026-06-25T01:00:00.000Z",
             "team1": {
@@ -885,76 +919,8 @@
             "status": null
         },
         {
-            "id": "m53",
-            "date_utc": "2026-06-25T23:00:00.000Z",
-            "team1": {
-                "name": "Brezilya",
-                "flag": "🇧🇷"
-            },
-            "team2": {
-                "name": "İskoçya",
-                "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-            },
-            "group": "C Grubu",
-            "stadium": "Hard Rock, Miami Gardens, ABD",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m54",
-            "date_utc": "2026-06-25T23:00:00.000Z",
-            "team1": {
-                "name": "Fas",
-                "flag": "🇲🇦"
-            },
-            "team2": {
-                "name": "Haiti",
-                "flag": "🇭🇹"
-            },
-            "group": "C Grubu",
-            "stadium": "Mercedes-Benz, Atlanta, ABD",
-            "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m55",
-            "date_utc": "2026-06-26T03:00:00.000Z",
-            "team1": {
-                "name": "Türkiye",
-                "flag": "🇹🇷"
-            },
-            "team2": {
-                "name": "ABD",
-                "flag": "🇺🇸"
-            },
-            "group": "D Grubu",
-            "stadium": "SoFi, Inglewood, ABD",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m56",
-            "date_utc": "2026-06-26T03:00:00.000Z",
-            "team1": {
-                "name": "Paraguay",
-                "flag": "🇵🇾"
-            },
-            "team2": {
-                "name": "Avustralya",
-                "flag": "🇦🇺"
-            },
-            "group": "D Grubu",
-            "stadium": "Levi's, Santa Clara, ABD",
-            "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
-        },
-        {
             "id": "m57",
-            "date_utc": "2026-06-26T20:00:00.000Z",
+            "date_utc": "2026-06-25T20:00:00.000Z",
             "team1": {
                 "name": "Almanya",
                 "flag": "🇩🇪"
@@ -971,7 +937,7 @@
         },
         {
             "id": "m58",
-            "date_utc": "2026-06-26T20:00:00.000Z",
+            "date_utc": "2026-06-25T20:00:00.000Z",
             "team1": {
                 "name": "Curaçao",
                 "flag": "🇨🇼"
@@ -988,7 +954,7 @@
         },
         {
             "id": "m59",
-            "date_utc": "2026-06-27T00:00:00.000Z",
+            "date_utc": "2026-06-25T23:00:00.000Z",
             "team1": {
                 "name": "Hollanda",
                 "flag": "🇳🇱"
@@ -1005,7 +971,7 @@
         },
         {
             "id": "m60",
-            "date_utc": "2026-06-27T00:00:00.000Z",
+            "date_utc": "2026-06-25T23:00:00.000Z",
             "team1": {
                 "name": "Japonya",
                 "flag": "🇯🇵"
@@ -1021,8 +987,42 @@
             "status": null
         },
         {
+            "id": "m55",
+            "date_utc": "2026-06-26T02:00:00.000Z",
+            "team1": {
+                "name": "Türkiye",
+                "flag": "🇹🇷"
+            },
+            "team2": {
+                "name": "ABD",
+                "flag": "🇺🇸"
+            },
+            "group": "D Grubu",
+            "stadium": "SoFi, Inglewood, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m56",
+            "date_utc": "2026-06-26T02:00:00.000Z",
+            "team1": {
+                "name": "Paraguay",
+                "flag": "🇵🇾"
+            },
+            "team2": {
+                "name": "Avustralya",
+                "flag": "🇦🇺"
+            },
+            "group": "D Grubu",
+            "stadium": "Levi's, Santa Clara, ABD",
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
+        },
+        {
             "id": "m65",
-            "date_utc": "2026-06-27T01:00:00.000Z",
+            "date_utc": "2026-06-26T19:00:00.000Z",
             "team1": {
                 "name": "Fransa",
                 "flag": "🇫🇷"
@@ -1039,7 +1039,7 @@
         },
         {
             "id": "m66",
-            "date_utc": "2026-06-27T01:00:00.000Z",
+            "date_utc": "2026-06-26T19:00:00.000Z",
             "team1": {
                 "name": "Senegal",
                 "flag": "🇸🇳"
@@ -1055,42 +1055,8 @@
             "status": null
         },
         {
-            "id": "m61",
-            "date_utc": "2026-06-27T19:00:00.000Z",
-            "team1": {
-                "name": "Belçika",
-                "flag": "🇧🇪"
-            },
-            "team2": {
-                "name": "Yeni Zelanda",
-                "flag": "🇳🇿"
-            },
-            "group": "G Grubu",
-            "stadium": "BC Place, Vancouver, Kanada",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m62",
-            "date_utc": "2026-06-27T19:00:00.000Z",
-            "team1": {
-                "name": "Mısır",
-                "flag": "🇪🇬"
-            },
-            "team2": {
-                "name": "İran",
-                "flag": "🇮🇷"
-            },
-            "group": "G Grubu",
-            "stadium": "Lumen Field, Seattle, ABD",
-            "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
-        },
-        {
             "id": "m63",
-            "date_utc": "2026-06-27T22:00:00.000Z",
+            "date_utc": "2026-06-27T00:00:00.000Z",
             "team1": {
                 "name": "İspanya",
                 "flag": "🇪🇸"
@@ -1107,7 +1073,7 @@
         },
         {
             "id": "m64",
-            "date_utc": "2026-06-27T22:00:00.000Z",
+            "date_utc": "2026-06-27T00:00:00.000Z",
             "team1": {
                 "name": "Yeşil Burun Adaları",
                 "flag": "🇨🇻"
@@ -1123,42 +1089,42 @@
             "status": null
         },
         {
-            "id": "m69",
-            "date_utc": "2026-06-27T23:00:00.000Z",
+            "id": "m61",
+            "date_utc": "2026-06-27T03:00:00.000Z",
             "team1": {
-                "name": "Portekiz",
-                "flag": "🇵🇹"
+                "name": "Belçika",
+                "flag": "🇧🇪"
             },
             "team2": {
-                "name": "Kolombiya",
-                "flag": "🇨🇴"
+                "name": "Yeni Zelanda",
+                "flag": "🇳🇿"
             },
-            "group": "K Grubu",
-            "stadium": "Hard Rock, Miami Gardens, ABD",
+            "group": "G Grubu",
+            "stadium": "BC Place, Vancouver, Kanada",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
-            "id": "m70",
-            "date_utc": "2026-06-27T23:00:00.000Z",
+            "id": "m62",
+            "date_utc": "2026-06-27T03:00:00.000Z",
             "team1": {
-                "name": "Demokratik Kongo Cumhuriyeti",
-                "flag": "🇨🇩"
+                "name": "Mısır",
+                "flag": "🇪🇬"
             },
             "team2": {
-                "name": "Özbekistan",
-                "flag": "🇺🇿"
+                "name": "İran",
+                "flag": "🇮🇷"
             },
-            "group": "K Grubu",
-            "stadium": "MetLife Stadyumu, ABD",
+            "group": "G Grubu",
+            "stadium": "Lumen Field, Seattle, ABD",
             "broadcaster": "TRT Spor",
             "score": null,
             "status": null
         },
         {
             "id": "m71",
-            "date_utc": "2026-06-28T01:00:00.000Z",
+            "date_utc": "2026-06-27T21:00:00.000Z",
             "team1": {
                 "name": "İngiltere",
                 "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
@@ -1175,7 +1141,7 @@
         },
         {
             "id": "m72",
-            "date_utc": "2026-06-28T01:00:00.000Z",
+            "date_utc": "2026-06-27T21:00:00.000Z",
             "team1": {
                 "name": "Hırvatistan",
                 "flag": "🇭🇷"
@@ -1191,8 +1157,42 @@
             "status": null
         },
         {
+            "id": "m69",
+            "date_utc": "2026-06-27T23:30:00.000Z",
+            "team1": {
+                "name": "Portekiz",
+                "flag": "🇵🇹"
+            },
+            "team2": {
+                "name": "Kolombiya",
+                "flag": "🇨🇴"
+            },
+            "group": "K Grubu",
+            "stadium": "Hard Rock, Miami Gardens, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m70",
+            "date_utc": "2026-06-27T23:30:00.000Z",
+            "team1": {
+                "name": "Demokratik Kongo Cumhuriyeti",
+                "flag": "🇨🇩"
+            },
+            "team2": {
+                "name": "Özbekistan",
+                "flag": "🇺🇿"
+            },
+            "group": "K Grubu",
+            "stadium": "MetLife Stadyumu, ABD",
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
+        },
+        {
             "id": "m67",
-            "date_utc": "2026-06-28T02:00:00.000Z",
+            "date_utc": "2026-06-28T01:00:00.000Z",
             "team1": {
                 "name": "Arjantin",
                 "flag": "🇦🇷"
@@ -1209,7 +1209,7 @@
         },
         {
             "id": "m68",
-            "date_utc": "2026-06-28T02:00:00.000Z",
+            "date_utc": "2026-06-28T01:00:00.000Z",
             "team1": {
                 "name": "Cezayir",
                 "flag": "🇩🇿"
