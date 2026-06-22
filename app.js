@@ -298,8 +298,9 @@ function renderStandings(matches) {
                 <tbody>`;
                 
         teams.forEach(t => {
+            const displayName = t.name.length > 12 ? t.name.substring(0, 11) + '.' : t.name;
             newHtml += `<tr>
-                        <td class="team-cell"><span class="flag">${t.flag}</span> ${t.name}</td>
+                        <td class="team-cell"><span class="flag">${t.flag}</span> ${displayName}</td>
                         <td>${t.P}</td>
                         <td>${t.W}</td>
                         <td>${t.D}</td>
