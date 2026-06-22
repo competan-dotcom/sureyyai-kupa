@@ -31,7 +31,7 @@
             "group": "A Grubu",
             "stadium": "Estadio Akron, Meksika",
             "broadcaster": "TRT1",
-            "score": "1-0",
+            "score": "2-1",
             "status": "finished"
         },
         {
@@ -150,7 +150,7 @@
             "group": "E Grubu",
             "stadium": "NRG, Houston, ABD",
             "broadcaster": "TRT1",
-            "score": "5-1",
+            "score": "7-1",
             "status": "finished"
         },
         {
@@ -681,8 +681,25 @@
             "status": "finished"
         },
         {
+            "id": "m43",
+            "date_utc": "2026-06-22T17:00:00.000Z",
+            "team1": {
+                "name": "Arjantin",
+                "flag": "🇦🇷"
+            },
+            "team2": {
+                "name": "Avusturya",
+                "flag": "🇦🇹"
+            },
+            "group": "J Grubu",
+            "stadium": "AT&T, Arlington, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
             "id": "m41",
-            "date_utc": "2026-06-22T16:00:00.000Z",
+            "date_utc": "2026-06-22T21:00:00.000Z",
             "team1": {
                 "name": "Fransa",
                 "flag": "🇫🇷"
@@ -699,7 +716,7 @@
         },
         {
             "id": "m42",
-            "date_utc": "2026-06-22T19:00:00.000Z",
+            "date_utc": "2026-06-23T00:00:00.000Z",
             "team1": {
                 "name": "Norveç",
                 "flag": "🇳🇴"
@@ -715,25 +732,8 @@
             "status": null
         },
         {
-            "id": "m43",
-            "date_utc": "2026-06-22T22:00:00.000Z",
-            "team1": {
-                "name": "Arjantin",
-                "flag": "🇦🇷"
-            },
-            "team2": {
-                "name": "Avusturya",
-                "flag": "🇦🇹"
-            },
-            "group": "J Grubu",
-            "stadium": "AT&T, Arlington, ABD",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
             "id": "m44",
-            "date_utc": "2026-06-23T01:00:00.000Z",
+            "date_utc": "2026-06-23T03:00:00.000Z",
             "team1": {
                 "name": "Ürdün",
                 "flag": "🇯🇴"
@@ -750,7 +750,7 @@
         },
         {
             "id": "m45",
-            "date_utc": "2026-06-23T16:00:00.000Z",
+            "date_utc": "2026-06-23T17:00:00.000Z",
             "team1": {
                 "name": "Portekiz",
                 "flag": "🇵🇹"
@@ -766,25 +766,8 @@
             "status": null
         },
         {
-            "id": "m46",
-            "date_utc": "2026-06-23T19:00:00.000Z",
-            "team1": {
-                "name": "Kolombiya",
-                "flag": "🇨🇴"
-            },
-            "team2": {
-                "name": "Demokratik Kongo Cumhuriyeti",
-                "flag": "🇨🇩"
-            },
-            "group": "K Grubu",
-            "stadium": "Gillette Stadyumu, ABD",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
             "id": "m47",
-            "date_utc": "2026-06-23T22:00:00.000Z",
+            "date_utc": "2026-06-23T20:00:00.000Z",
             "team1": {
                 "name": "İngiltere",
                 "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
@@ -801,7 +784,7 @@
         },
         {
             "id": "m48",
-            "date_utc": "2026-06-24T01:00:00.000Z",
+            "date_utc": "2026-06-23T23:00:00.000Z",
             "team1": {
                 "name": "Panama",
                 "flag": "🇵🇦"
@@ -817,42 +800,25 @@
             "status": null
         },
         {
-            "id": "m49",
-            "date_utc": "2026-06-24T20:00:00.000Z",
+            "id": "m46",
+            "date_utc": "2026-06-24T04:00:00.000Z",
             "team1": {
-                "name": "Meksika",
-                "flag": "🇲🇽"
+                "name": "Kolombiya",
+                "flag": "🇨🇴"
             },
             "team2": {
-                "name": "Çek Cumhuriyeti",
-                "flag": "🇨🇿"
+                "name": "Demokratik Kongo Cumhuriyeti",
+                "flag": "🇨🇩"
             },
-            "group": "A Grubu",
-            "stadium": "Estadio Akron, Meksika",
+            "group": "K Grubu",
+            "stadium": "Gillette Stadyumu, ABD",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
-            "id": "m50",
-            "date_utc": "2026-06-24T20:00:00.000Z",
-            "team1": {
-                "name": "Güney Afrika",
-                "flag": "🇿🇦"
-            },
-            "team2": {
-                "name": "Güney Kore",
-                "flag": "🇰🇷"
-            },
-            "group": "A Grubu",
-            "stadium": "Estadio BBVA, Monterrey, Meksika",
-            "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
-        },
-        {
             "id": "m51",
-            "date_utc": "2026-06-25T00:00:00.000Z",
+            "date_utc": "2026-06-24T19:00:00.000Z",
             "team1": {
                 "name": "Kanada",
                 "flag": "🇨🇦"
@@ -869,7 +835,7 @@
         },
         {
             "id": "m52",
-            "date_utc": "2026-06-25T00:00:00.000Z",
+            "date_utc": "2026-06-24T19:00:00.000Z",
             "team1": {
                 "name": "Bosna Hersek",
                 "flag": "🇧🇦"
@@ -885,8 +851,42 @@
             "status": null
         },
         {
+            "id": "m49",
+            "date_utc": "2026-06-25T01:00:00.000Z",
+            "team1": {
+                "name": "Meksika",
+                "flag": "🇲🇽"
+            },
+            "team2": {
+                "name": "Çek Cumhuriyeti",
+                "flag": "🇨🇿"
+            },
+            "group": "A Grubu",
+            "stadium": "Estadio Akron, Meksika",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m50",
+            "date_utc": "2026-06-25T01:00:00.000Z",
+            "team1": {
+                "name": "Güney Afrika",
+                "flag": "🇿🇦"
+            },
+            "team2": {
+                "name": "Güney Kore",
+                "flag": "🇰🇷"
+            },
+            "group": "A Grubu",
+            "stadium": "Estadio BBVA, Monterrey, Meksika",
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
+        },
+        {
             "id": "m53",
-            "date_utc": "2026-06-25T20:00:00.000Z",
+            "date_utc": "2026-06-25T23:00:00.000Z",
             "team1": {
                 "name": "Brezilya",
                 "flag": "🇧🇷"
@@ -903,7 +903,7 @@
         },
         {
             "id": "m54",
-            "date_utc": "2026-06-25T20:00:00.000Z",
+            "date_utc": "2026-06-25T23:00:00.000Z",
             "team1": {
                 "name": "Fas",
                 "flag": "🇲🇦"
@@ -920,7 +920,7 @@
         },
         {
             "id": "m55",
-            "date_utc": "2026-06-26T00:00:00.000Z",
+            "date_utc": "2026-06-26T03:00:00.000Z",
             "team1": {
                 "name": "Türkiye",
                 "flag": "🇹🇷"
@@ -937,7 +937,7 @@
         },
         {
             "id": "m56",
-            "date_utc": "2026-06-26T00:00:00.000Z",
+            "date_utc": "2026-06-26T03:00:00.000Z",
             "team1": {
                 "name": "Paraguay",
                 "flag": "🇵🇾"
@@ -1021,6 +1021,40 @@
             "status": null
         },
         {
+            "id": "m65",
+            "date_utc": "2026-06-27T01:00:00.000Z",
+            "team1": {
+                "name": "Fransa",
+                "flag": "🇫🇷"
+            },
+            "team2": {
+                "name": "Norveç",
+                "flag": "🇳🇴"
+            },
+            "group": "I Grubu",
+            "stadium": "Gillette, Foxborough, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m66",
+            "date_utc": "2026-06-27T01:00:00.000Z",
+            "team1": {
+                "name": "Senegal",
+                "flag": "🇸🇳"
+            },
+            "team2": {
+                "name": "Irak",
+                "flag": "🇮🇶"
+            },
+            "group": "I Grubu",
+            "stadium": "BMO Field, Toronto, Kanada",
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
+        },
+        {
             "id": "m61",
             "date_utc": "2026-06-27T19:00:00.000Z",
             "team1": {
@@ -1089,76 +1123,8 @@
             "status": null
         },
         {
-            "id": "m65",
-            "date_utc": "2026-06-28T19:00:00.000Z",
-            "team1": {
-                "name": "Fransa",
-                "flag": "🇫🇷"
-            },
-            "team2": {
-                "name": "Norveç",
-                "flag": "🇳🇴"
-            },
-            "group": "I Grubu",
-            "stadium": "Gillette, Foxborough, ABD",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m66",
-            "date_utc": "2026-06-28T19:00:00.000Z",
-            "team1": {
-                "name": "Senegal",
-                "flag": "🇸🇳"
-            },
-            "team2": {
-                "name": "Irak",
-                "flag": "🇮🇶"
-            },
-            "group": "I Grubu",
-            "stadium": "BMO Field, Toronto, Kanada",
-            "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m67",
-            "date_utc": "2026-06-28T22:00:00.000Z",
-            "team1": {
-                "name": "Arjantin",
-                "flag": "🇦🇷"
-            },
-            "team2": {
-                "name": "Ürdün",
-                "flag": "🇯🇴"
-            },
-            "group": "J Grubu",
-            "stadium": "AT&T, Arlington, ABD",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m68",
-            "date_utc": "2026-06-28T22:00:00.000Z",
-            "team1": {
-                "name": "Cezayir",
-                "flag": "🇩🇿"
-            },
-            "team2": {
-                "name": "Avusturya",
-                "flag": "🇦🇹"
-            },
-            "group": "J Grubu",
-            "stadium": "Arrowhead, Kansas City, ABD",
-            "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
-        },
-        {
             "id": "m69",
-            "date_utc": "2026-06-29T19:00:00.000Z",
+            "date_utc": "2026-06-27T23:00:00.000Z",
             "team1": {
                 "name": "Portekiz",
                 "flag": "🇵🇹"
@@ -1175,7 +1141,7 @@
         },
         {
             "id": "m70",
-            "date_utc": "2026-06-29T19:00:00.000Z",
+            "date_utc": "2026-06-27T23:00:00.000Z",
             "team1": {
                 "name": "Demokratik Kongo Cumhuriyeti",
                 "flag": "🇨🇩"
@@ -1192,7 +1158,7 @@
         },
         {
             "id": "m71",
-            "date_utc": "2026-06-29T22:00:00.000Z",
+            "date_utc": "2026-06-28T01:00:00.000Z",
             "team1": {
                 "name": "İngiltere",
                 "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
@@ -1209,7 +1175,7 @@
         },
         {
             "id": "m72",
-            "date_utc": "2026-06-29T22:00:00.000Z",
+            "date_utc": "2026-06-28T01:00:00.000Z",
             "team1": {
                 "name": "Hırvatistan",
                 "flag": "🇭🇷"
@@ -1220,6 +1186,40 @@
             },
             "group": "L Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m67",
+            "date_utc": "2026-06-28T02:00:00.000Z",
+            "team1": {
+                "name": "Arjantin",
+                "flag": "🇦🇷"
+            },
+            "team2": {
+                "name": "Ürdün",
+                "flag": "🇯🇴"
+            },
+            "group": "J Grubu",
+            "stadium": "AT&T, Arlington, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m68",
+            "date_utc": "2026-06-28T02:00:00.000Z",
+            "team1": {
+                "name": "Cezayir",
+                "flag": "🇩🇿"
+            },
+            "team2": {
+                "name": "Avusturya",
+                "flag": "🇦🇹"
+            },
+            "group": "J Grubu",
+            "stadium": "Arrowhead, Kansas City, ABD",
             "broadcaster": "TRT Spor",
             "score": null,
             "status": null
@@ -1783,6 +1783,12 @@
             "goals": 3
         },
         {
+            "name": "Deniz Undav",
+            "team": "Almanya",
+            "flag": "🇩🇪",
+            "goals": 3
+        },
+        {
             "name": "Kylian Mbappé",
             "team": "Fransa",
             "flag": "🇫🇷",
@@ -1837,12 +1843,6 @@
             "goals": 2
         },
         {
-            "name": "Deniz Undav",
-            "team": "Almanya",
-            "flag": "🇩🇪",
-            "goals": 2
-        },
-        {
             "name": "Ayase Ueda",
             "team": "Japonya",
             "flag": "🇯🇵",
@@ -1852,6 +1852,42 @@
             "name": "Mikel Oyarzabal",
             "team": "İspanya",
             "flag": "🇪🇸",
+            "goals": 2
+        },
+        {
+            "name": "Vinícius Júnior",
+            "team": "Brezilya",
+            "flag": "🇧🇷",
+            "goals": 2
+        },
+        {
+            "name": "Maxi Araújo",
+            "team": "Uruguay",
+            "flag": "🇺🇾",
+            "goals": 2
+        },
+        {
+            "name": "Ismael Saibari",
+            "team": "Fas",
+            "flag": "🇲🇦",
+            "goals": 2
+        },
+        {
+            "name": "Crysencio Summerville",
+            "team": "Hollanda",
+            "flag": "🇳🇱",
+            "goals": 2
+        },
+        {
+            "name": "Kai Havertz",
+            "team": "Almanya",
+            "flag": "🇩🇪",
+            "goals": 2
+        },
+        {
+            "name": "Daichi Kamada",
+            "team": "Japonya",
+            "flag": "🇯🇵",
             "goals": 2
         }
     ]
