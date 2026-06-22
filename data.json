@@ -626,8 +626,8 @@
             "group": "H Grubu",
             "stadium": "Mercedes-Benz, Atlanta, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "4-0",
+            "status": "finished"
         },
         {
             "id": "m38",
@@ -643,8 +643,8 @@
             "group": "G Grubu",
             "stadium": "SoFi, Inglewood, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-0",
+            "status": "finished"
         },
         {
             "id": "m39",
@@ -660,8 +660,8 @@
             "group": "H Grubu",
             "stadium": "Hard Rock, Miami Gardens, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-2",
+            "status": "finished"
         },
         {
             "id": "m40",
@@ -677,8 +677,8 @@
             "group": "G Grubu",
             "stadium": "BC Place, Vancouver, Kanada",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-3",
+            "status": "finished"
         },
         {
             "id": "m41",
@@ -1846,6 +1846,12 @@
             "name": "Ayase Ueda",
             "team": "Japonya",
             "flag": "🇯🇵",
+            "goals": 2
+        },
+        {
+            "name": "Mikel Oyarzabal",
+            "team": "İspanya",
+            "flag": "🇪🇸",
             "goals": 2
         }
     ]
