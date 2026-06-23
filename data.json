@@ -694,8 +694,8 @@
             "group": "J Grubu",
             "stadium": "AT&T, Arlington, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-0",
+            "status": "finished"
         },
         {
             "id": "m41",
@@ -711,8 +711,8 @@
             "group": "I Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-0",
+            "status": "finished"
         },
         {
             "id": "m42",
@@ -728,8 +728,8 @@
             "group": "I Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-2",
+            "status": "finished"
         },
         {
             "id": "m44",
@@ -745,8 +745,8 @@
             "group": "J Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-2",
+            "status": "finished"
         },
         {
             "id": "m45",
@@ -1774,6 +1774,24 @@
             "name": "Lionel Messi",
             "team": "Arjantin",
             "flag": "🇦🇷",
+            "goals": 5
+        },
+        {
+            "name": "Erling Haaland",
+            "team": "Norveç",
+            "flag": "🇳🇴",
+            "goals": 4
+        },
+        {
+            "name": "Kylian Mbappé",
+            "team": "Fransa",
+            "flag": "🇫🇷",
+            "goals": 4
+        },
+        {
+            "name": "Deniz Undav",
+            "team": "Almanya",
+            "flag": "🇩🇪",
             "goals": 3
         },
         {
@@ -1783,51 +1801,9 @@
             "goals": 3
         },
         {
-            "name": "Deniz Undav",
-            "team": "Almanya",
-            "flag": "🇩🇪",
-            "goals": 3
-        },
-        {
-            "name": "Kylian Mbappé",
-            "team": "Fransa",
-            "flag": "🇫🇷",
-            "goals": 2
-        },
-        {
-            "name": "Erling Haaland",
-            "team": "Norveç",
-            "flag": "🇳🇴",
-            "goals": 2
-        },
-        {
-            "name": "Folarin Balogun",
-            "team": "ABD",
-            "flag": "🇺🇸",
-            "goals": 2
-        },
-        {
-            "name": "Elijah Just",
-            "team": "Yeni Zelanda",
-            "flag": "🇳🇿",
-            "goals": 2
-        },
-        {
-            "name": "Harry Kane",
-            "team": "İngiltere",
-            "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-            "goals": 2
-        },
-        {
-            "name": "Johan Manzambi",
-            "team": "İsviçre",
-            "flag": "🇨🇭",
-            "goals": 2
-        },
-        {
-            "name": "Matheus Cunha",
-            "team": "Brezilya",
-            "flag": "🇧🇷",
+            "name": "Ayase Ueda",
+            "team": "Japonya",
+            "flag": "🇯🇵",
             "goals": 2
         },
         {
@@ -1843,9 +1819,69 @@
             "goals": 2
         },
         {
-            "name": "Ayase Ueda",
+            "name": "Crysencio Summerville",
+            "team": "Hollanda",
+            "flag": "🇳🇱",
+            "goals": 2
+        },
+        {
+            "name": "Daichi Kamada",
             "team": "Japonya",
             "flag": "🇯🇵",
+            "goals": 2
+        },
+        {
+            "name": "Elijah Just",
+            "team": "Yeni Zelanda",
+            "flag": "🇳🇿",
+            "goals": 2
+        },
+        {
+            "name": "Folarin Balogun",
+            "team": "ABD",
+            "flag": "🇺🇸",
+            "goals": 2
+        },
+        {
+            "name": "Harry Kane",
+            "team": "İngiltere",
+            "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+            "goals": 2
+        },
+        {
+            "name": "Ismael Saibari",
+            "team": "Fas",
+            "flag": "🇲🇦",
+            "goals": 2
+        },
+        {
+            "name": "Ismaila Sarr",
+            "team": "Senegal",
+            "flag": "🇸🇳",
+            "goals": 2
+        },
+        {
+            "name": "Johan Manzambi",
+            "team": "İsviçre",
+            "flag": "🇨🇭",
+            "goals": 2
+        },
+        {
+            "name": "Kai Havertz",
+            "team": "Almanya",
+            "flag": "🇩🇪",
+            "goals": 2
+        },
+        {
+            "name": "Matheus Cunha",
+            "team": "Brezilya",
+            "flag": "🇧🇷",
+            "goals": 2
+        },
+        {
+            "name": "Maxi Araújo",
+            "team": "Uruguay",
+            "flag": "🇺🇾",
             "goals": 2
         },
         {
@@ -1858,36 +1894,6 @@
             "name": "Vinícius Júnior",
             "team": "Brezilya",
             "flag": "🇧🇷",
-            "goals": 2
-        },
-        {
-            "name": "Maxi Araújo",
-            "team": "Uruguay",
-            "flag": "🇺🇾",
-            "goals": 2
-        },
-        {
-            "name": "Ismael Saibari",
-            "team": "Fas",
-            "flag": "🇲🇦",
-            "goals": 2
-        },
-        {
-            "name": "Crysencio Summerville",
-            "team": "Hollanda",
-            "flag": "🇳🇱",
-            "goals": 2
-        },
-        {
-            "name": "Kai Havertz",
-            "team": "Almanya",
-            "flag": "🇩🇪",
-            "goals": 2
-        },
-        {
-            "name": "Daichi Kamada",
-            "team": "Japonya",
-            "flag": "🇯🇵",
             "goals": 2
         }
     ]
