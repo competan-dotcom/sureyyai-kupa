@@ -762,8 +762,8 @@
             "group": "K Grubu",
             "stadium": "NRG, Houston, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "5-0",
+            "status": "finished"
         },
         {
             "id": "m47",
@@ -779,8 +779,8 @@
             "group": "L Grubu",
             "stadium": "Gillette, Foxborough, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-0",
+            "status": "finished"
         },
         {
             "id": "m48",
@@ -796,8 +796,8 @@
             "group": "L Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-1",
+            "status": "finished"
         },
         {
             "id": "m46",
@@ -813,8 +813,8 @@
             "group": "K Grubu",
             "stadium": "Gillette Stadyumu, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-0",
+            "status": "finished"
         },
         {
             "id": "m51",
@@ -1819,6 +1819,12 @@
             "goals": 2
         },
         {
+            "name": "Cristiano Ronaldo",
+            "team": "Portekiz",
+            "flag": "🇵🇹",
+            "goals": 2
+        },
+        {
             "name": "Crysencio Summerville",
             "team": "Hollanda",
             "flag": "🇳🇱",
@@ -1828,6 +1834,12 @@
             "name": "Daichi Kamada",
             "team": "Japonya",
             "flag": "🇯🇵",
+            "goals": 2
+        },
+        {
+            "name": "Daniel Muñoz",
+            "team": "Kolombiya",
+            "flag": "🇨🇴",
             "goals": 2
         },
         {
