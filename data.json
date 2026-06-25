@@ -830,8 +830,8 @@
             "group": "B Grubu",
             "stadium": "BC Place, Vancouver, Kanada",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-2",
+            "status": "finished"
         },
         {
             "id": "m52",
@@ -847,8 +847,8 @@
             "group": "B Grubu",
             "stadium": "Lumen Field, Seattle, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "3-1",
+            "status": "finished"
         },
         {
             "id": "m53",
@@ -864,8 +864,8 @@
             "group": "C Grubu",
             "stadium": "Hard Rock, Miami Gardens, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-0",
+            "status": "finished"
         },
         {
             "id": "m54",
@@ -881,8 +881,8 @@
             "group": "C Grubu",
             "stadium": "Mercedes-Benz, Atlanta, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "4-2",
+            "status": "finished"
         },
         {
             "id": "m49",
@@ -898,8 +898,8 @@
             "group": "A Grubu",
             "stadium": "Estadio Akron, Meksika",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-0",
+            "status": "finished"
         },
         {
             "id": "m50",
@@ -915,8 +915,8 @@
             "group": "A Grubu",
             "stadium": "Estadio BBVA, Monterrey, Meksika",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "1-0",
+            "status": "finished"
         },
         {
             "id": "m57",
@@ -1789,15 +1789,39 @@
             "goals": 4
         },
         {
+            "name": "Vinícius Júnior",
+            "team": "Brezilya",
+            "flag": "🇧🇷",
+            "goals": 4
+        },
+        {
             "name": "Deniz Undav",
             "team": "Almanya",
             "flag": "🇩🇪",
             "goals": 3
         },
         {
+            "name": "Ismael Saibari",
+            "team": "Fas",
+            "flag": "🇲🇦",
+            "goals": 3
+        },
+        {
+            "name": "Johan Manzambi",
+            "team": "İsviçre",
+            "flag": "🇨🇭",
+            "goals": 3
+        },
+        {
             "name": "Jonathan David",
             "team": "Kanada",
             "flag": "🇨🇦",
+            "goals": 3
+        },
+        {
+            "name": "Matheus Cunha",
+            "team": "Brezilya",
+            "flag": "🇧🇷",
             "goals": 3
         },
         {
@@ -1831,6 +1855,12 @@
             "goals": 2
         },
         {
+            "name": "Cyle Larin",
+            "team": "Kanada",
+            "flag": "🇨🇦",
+            "goals": 2
+        },
+        {
             "name": "Daichi Kamada",
             "team": "Japonya",
             "flag": "🇯🇵",
@@ -1849,6 +1879,12 @@
             "goals": 2
         },
         {
+            "name": "Ermin Mahmic",
+            "team": "Bosna Hersek",
+            "flag": "🇧🇦",
+            "goals": 2
+        },
+        {
             "name": "Folarin Balogun",
             "team": "ABD",
             "flag": "🇺🇸",
@@ -1861,33 +1897,21 @@
             "goals": 2
         },
         {
-            "name": "Ismael Saibari",
-            "team": "Fas",
-            "flag": "🇲🇦",
-            "goals": 2
-        },
-        {
             "name": "Ismaila Sarr",
             "team": "Senegal",
             "flag": "🇸🇳",
             "goals": 2
         },
         {
-            "name": "Johan Manzambi",
-            "team": "İsviçre",
-            "flag": "🇨🇭",
+            "name": "Julián Quiñones",
+            "team": "Meksika",
+            "flag": "🇲🇽",
             "goals": 2
         },
         {
             "name": "Kai Havertz",
             "team": "Almanya",
             "flag": "🇩🇪",
-            "goals": 2
-        },
-        {
-            "name": "Matheus Cunha",
-            "team": "Brezilya",
-            "flag": "🇧🇷",
             "goals": 2
         },
         {
@@ -1903,9 +1927,9 @@
             "goals": 2
         },
         {
-            "name": "Vinícius Júnior",
-            "team": "Brezilya",
-            "flag": "🇧🇷",
+            "name": "Ruben Vargas",
+            "team": "İsviçre",
+            "flag": "🇨🇭",
             "goals": 2
         }
     ]
