@@ -932,8 +932,8 @@
             "group": "E Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-2",
+            "status": "finished"
         },
         {
             "id": "m58",
@@ -949,8 +949,8 @@
             "group": "E Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "0-2",
+            "status": "finished"
         },
         {
             "id": "m59",
@@ -966,8 +966,8 @@
             "group": "F Grubu",
             "stadium": "Arrowhead, Kansas City, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-1",
+            "status": "finished"
         },
         {
             "id": "m60",
@@ -983,8 +983,8 @@
             "group": "F Grubu",
             "stadium": "AT&T, Arlington, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "1-1",
+            "status": "finished"
         },
         {
             "id": "m55",
@@ -1000,8 +1000,8 @@
             "group": "D Grubu",
             "stadium": "SoFi, Inglewood, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-2",
+            "status": "finished"
         },
         {
             "id": "m56",
@@ -1017,8 +1017,8 @@
             "group": "D Grubu",
             "stadium": "Levi's, Santa Clara, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "0-0",
+            "status": "finished"
         },
         {
             "id": "m65",
@@ -1795,6 +1795,12 @@
             "goals": 4
         },
         {
+            "name": "Brian Brobbey",
+            "team": "Hollanda",
+            "flag": "🇳🇱",
+            "goals": 3
+        },
+        {
             "name": "Deniz Undav",
             "team": "Almanya",
             "flag": "🇩🇪",
@@ -1825,15 +1831,15 @@
             "goals": 3
         },
         {
-            "name": "Ayase Ueda",
-            "team": "Japonya",
-            "flag": "🇯🇵",
+            "name": "Anthony Elanga",
+            "team": "İsveç",
+            "flag": "🇸🇪",
             "goals": 2
         },
         {
-            "name": "Brian Brobbey",
-            "team": "Hollanda",
-            "flag": "🇳🇱",
+            "name": "Ayase Ueda",
+            "team": "Japonya",
+            "flag": "🇯🇵",
             "goals": 2
         },
         {
@@ -1927,9 +1933,21 @@
             "goals": 2
         },
         {
+            "name": "Nicolas Pépé",
+            "team": "Fildişi Sahili",
+            "flag": "🇨🇮",
+            "goals": 2
+        },
+        {
             "name": "Ruben Vargas",
             "team": "İsviçre",
             "flag": "🇨🇭",
+            "goals": 2
+        },
+        {
+            "name": "Yasin Ayari",
+            "team": "İsveç",
+            "flag": "🇸🇪",
             "goals": 2
         }
     ]
