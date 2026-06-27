@@ -1102,8 +1102,8 @@
             "group": "G Grubu",
             "stadium": "BC Place, Vancouver, Kanada",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "5-1",
+            "status": "finished"
         },
         {
             "id": "m62",
@@ -1119,8 +1119,8 @@
             "group": "G Grubu",
             "stadium": "Lumen Field, Seattle, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "1-1",
+            "status": "finished"
         },
         {
             "id": "m71",
@@ -1813,6 +1813,12 @@
             "goals": 3
         },
         {
+            "name": "Elijah Just",
+            "team": "Yeni Zelanda",
+            "flag": "🇳🇿",
+            "goals": 3
+        },
+        {
             "name": "Ismael Saibari",
             "team": "Fas",
             "flag": "🇲🇦",
@@ -1891,12 +1897,6 @@
             "goals": 2
         },
         {
-            "name": "Elijah Just",
-            "team": "Yeni Zelanda",
-            "flag": "🇳🇿",
-            "goals": 2
-        },
-        {
             "name": "Ermin Mahmic",
             "team": "Bosna Hersek",
             "flag": "🇧🇦",
@@ -1927,6 +1927,12 @@
             "goals": 2
         },
         {
+            "name": "Leandro Trossard",
+            "team": "Belçika",
+            "flag": "🇧🇪",
+            "goals": 2
+        },
+        {
             "name": "Maxi Araújo",
             "team": "Uruguay",
             "flag": "🇺🇾",
@@ -1948,6 +1954,12 @@
             "name": "Pape Gueye",
             "team": "Senegal",
             "flag": "🇸🇳",
+            "goals": 2
+        },
+        {
+            "name": "Ramin Rezaeian",
+            "team": "İran",
+            "flag": "🇮🇷",
             "goals": 2
         },
         {
