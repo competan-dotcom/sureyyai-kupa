@@ -1034,8 +1034,8 @@
             "group": "I Grubu",
             "stadium": "Gillette, Foxborough, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "4-1",
+            "status": "finished"
         },
         {
             "id": "m66",
@@ -1051,8 +1051,8 @@
             "group": "I Grubu",
             "stadium": "BMO Field, Toronto, Kanada",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "5-0",
+            "status": "finished"
         },
         {
             "id": "m63",
@@ -1068,8 +1068,8 @@
             "group": "H Grubu",
             "stadium": "Estadio Akron, Zapopan, Meksika",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-0",
+            "status": "finished"
         },
         {
             "id": "m64",
@@ -1085,8 +1085,8 @@
             "group": "H Grubu",
             "stadium": "NRG, Houston, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "0-0",
+            "status": "finished"
         },
         {
             "id": "m61",
@@ -1789,6 +1789,12 @@
             "goals": 4
         },
         {
+            "name": "Ousmane Dembélé",
+            "team": "Fransa",
+            "flag": "🇫🇷",
+            "goals": 4
+        },
+        {
             "name": "Vinícius Júnior",
             "team": "Brezilya",
             "flag": "🇧🇷",
@@ -1810,6 +1816,12 @@
             "name": "Ismael Saibari",
             "team": "Fas",
             "flag": "🇲🇦",
+            "goals": 3
+        },
+        {
+            "name": "Ismaila Sarr",
+            "team": "Senegal",
+            "flag": "🇸🇳",
             "goals": 3
         },
         {
@@ -1903,12 +1915,6 @@
             "goals": 2
         },
         {
-            "name": "Ismaila Sarr",
-            "team": "Senegal",
-            "flag": "🇸🇳",
-            "goals": 2
-        },
-        {
             "name": "Julián Quiñones",
             "team": "Meksika",
             "flag": "🇲🇽",
@@ -1936,6 +1942,12 @@
             "name": "Nicolas Pépé",
             "team": "Fildişi Sahili",
             "flag": "🇨🇮",
+            "goals": 2
+        },
+        {
+            "name": "Pape Gueye",
+            "team": "Senegal",
+            "flag": "🇸🇳",
             "goals": 2
         },
         {
