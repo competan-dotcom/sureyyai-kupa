@@ -1136,8 +1136,8 @@
             "group": "L Grubu",
             "stadium": "MetLife, East Rutherford, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-0",
+            "status": "finished"
         },
         {
             "id": "m72",
@@ -1153,8 +1153,8 @@
             "group": "L Grubu",
             "stadium": "Lincoln Financial Field, Philadelphia, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "2-1",
+            "status": "finished"
         },
         {
             "id": "m69",
@@ -1170,8 +1170,8 @@
             "group": "K Grubu",
             "stadium": "Hard Rock, Miami Gardens, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-0",
+            "status": "finished"
         },
         {
             "id": "m70",
@@ -1187,8 +1187,8 @@
             "group": "K Grubu",
             "stadium": "MetLife Stadyumu, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "3-1",
+            "status": "finished"
         },
         {
             "id": "m67",
@@ -1204,8 +1204,8 @@
             "group": "J Grubu",
             "stadium": "AT&T, Arlington, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-1",
+            "status": "finished"
         },
         {
             "id": "m68",
@@ -1221,8 +1221,8 @@
             "group": "J Grubu",
             "stadium": "Arrowhead, Kansas City, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "3-3",
+            "status": "finished"
         },
         {
             "id": "m73",
@@ -1774,7 +1774,7 @@
             "name": "Lionel Messi",
             "team": "Arjantin",
             "flag": "🇦🇷",
-            "goals": 5
+            "goals": 6
         },
         {
             "name": "Erling Haaland",
@@ -1819,6 +1819,12 @@
             "goals": 3
         },
         {
+            "name": "Harry Kane",
+            "team": "İngiltere",
+            "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+            "goals": 3
+        },
+        {
             "name": "Ismael Saibari",
             "team": "Fas",
             "flag": "🇲🇦",
@@ -1846,6 +1852,12 @@
             "name": "Matheus Cunha",
             "team": "Brezilya",
             "flag": "🇧🇷",
+            "goals": 3
+        },
+        {
+            "name": "Yoane Wissa",
+            "team": "Demokratik Kongo Cumhuriyeti",
+            "flag": "🇨🇩",
             "goals": 3
         },
         {
@@ -1909,12 +1921,6 @@
             "goals": 2
         },
         {
-            "name": "Harry Kane",
-            "team": "İngiltere",
-            "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-            "goals": 2
-        },
-        {
             "name": "Julián Quiñones",
             "team": "Meksika",
             "flag": "🇲🇽",
@@ -1930,6 +1936,12 @@
             "name": "Leandro Trossard",
             "team": "Belçika",
             "flag": "🇧🇪",
+            "goals": 2
+        },
+        {
+            "name": "Marko Arnautović",
+            "team": "Avusturya",
+            "flag": "🇦🇹",
             "goals": 2
         },
         {
@@ -1960,6 +1972,12 @@
             "name": "Ramin Rezaeian",
             "team": "İran",
             "flag": "🇮🇷",
+            "goals": 2
+        },
+        {
+            "name": "Riyad Mahrez",
+            "team": "Cezayir",
+            "flag": "🇩🇿",
             "goals": 2
         },
         {
