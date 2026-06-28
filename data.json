@@ -1226,187 +1226,170 @@
         },
         {
             "id": "m73",
-            "date_utc": "2026-06-28T20:00:00.000Z",
+            "date_utc": "2026-06-28T19:00:00.000Z",
             "team1": {
-                "name": "Maç 73",
-                "flag": "🌍"
+                "name": "Güney Afrika",
+                "flag": "🇿🇦"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Kanada",
+                "flag": "🇨🇦"
             },
-            "group": "Eliminasyon",
-            "stadium": "Los Angeles, ABD",
+            "group": "Son 32 Turu",
+            "stadium": "SoFi Stadyumu, Los Angeles, ABD",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
-            "id": "m74",
-            "date_utc": "2026-06-29T00:00:00.000Z",
+            "id": "m76",
+            "date_utc": "2026-06-29T17:00:00.000Z",
             "team1": {
-                "name": "Maç 74",
-                "flag": "🌍"
+                "name": "Brezilya",
+                "flag": "🇧🇷"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Japonya",
+                "flag": "🇯🇵"
             },
-            "group": "Eliminasyon",
-            "stadium": "Dallas, ABD",
+            "group": "Son 32 Turu",
+            "stadium": "NRG Stadyumu, Houston, ABD",
+            "broadcaster": "TRT Spor",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m74",
+            "date_utc": "2026-06-29T20:30:00.000Z",
+            "team1": {
+                "name": "Almanya",
+                "flag": "🇩🇪"
+            },
+            "team2": {
+                "name": "Paraguay",
+                "flag": "🇵🇾"
+            },
+            "group": "Son 32 Turu",
+            "stadium": "Gillette Stadyumu, Boston, ABD",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
             "id": "m75",
-            "date_utc": "2026-06-29T19:00:00.000Z",
-            "team1": {
-                "name": "Maç 75",
-                "flag": "🌍"
-            },
-            "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
-            },
-            "group": "Eliminasyon",
-            "stadium": "Boston, ABD",
-            "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m76",
-            "date_utc": "2026-06-29T22:00:00.000Z",
-            "team1": {
-                "name": "Maç 76",
-                "flag": "🌍"
-            },
-            "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
-            },
-            "group": "Eliminasyon",
-            "stadium": "Atlanta, ABD",
-            "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m77",
             "date_utc": "2026-06-30T01:00:00.000Z",
             "team1": {
-                "name": "Maç 77",
-                "flag": "🌍"
+                "name": "Hollanda",
+                "flag": "🇳🇱"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Fas",
+                "flag": "🇲🇦"
             },
-            "group": "Eliminasyon",
-            "stadium": "San Francisco, ABD",
-            "broadcaster": "TRT 1",
+            "group": "Son 32 Turu",
+            "stadium": "Estadio BBVA, Monterrey, Meksika",
+            "broadcaster": "TRT Spor",
             "score": null,
             "status": null
         },
         {
             "id": "m78",
-            "date_utc": "2026-06-30T19:00:00.000Z",
+            "date_utc": "2026-06-30T17:00:00.000Z",
             "team1": {
-                "name": "Maç 78",
-                "flag": "🌍"
+                "name": "Fildişi Sahili",
+                "flag": "🇨🇮"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Norveç",
+                "flag": "🇳🇴"
             },
-            "group": "Eliminasyon",
-            "stadium": "New York New Jersey, ABD",
+            "group": "Son 32 Turu",
+            "stadium": "AT&T Stadyumu, Dallas, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m77",
+            "date_utc": "2026-06-30T21:00:00.000Z",
+            "team1": {
+                "name": "Fransa",
+                "flag": "🇫🇷"
+            },
+            "team2": {
+                "name": "İsveç",
+                "flag": "🇸🇪"
+            },
+            "group": "Son 32 Turu",
+            "stadium": "MetLife Stadyumu, New York/New Jersey, ABD",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
             "id": "m79",
-            "date_utc": "2026-06-30T22:00:00.000Z",
+            "date_utc": "2026-07-01T01:00:00.000Z",
             "team1": {
-                "name": "Maç 79",
-                "flag": "🌍"
+                "name": "Meksika",
+                "flag": "🇲🇽"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Ekvador",
+                "flag": "🇪🇨"
             },
-            "group": "Eliminasyon",
-            "stadium": "Houston, ABD",
+            "group": "Son 32 Turu",
+            "stadium": "Estadio Azteca, Mexico City, Meksika",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
             "id": "m80",
-            "date_utc": "2026-07-01T01:00:00.000Z",
+            "date_utc": "2026-07-01T16:00:00.000Z",
             "team1": {
-                "name": "Maç 80",
-                "flag": "🌍"
+                "name": "İngiltere",
+                "flag": "🏴‍󠁢󠁥󠁮󠁧󠁿"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Demokratik Kongo Cumhuriyeti",
+                "flag": "🇨🇩"
             },
-            "group": "Eliminasyon",
-            "stadium": "Monterrey, Meksika",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m81",
-            "date_utc": "2026-07-01T19:00:00.000Z",
-            "team1": {
-                "name": "Maç 81",
-                "flag": "🌍"
-            },
-            "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
-            },
-            "group": "Eliminasyon",
-            "stadium": "Orlando, ABD",
+            "group": "Son 32 Turu",
+            "stadium": "Mercedes-Benz Stadyumu, Atlanta, ABD",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
             "id": "m82",
-            "date_utc": "2026-07-01T22:00:00.000Z",
+            "date_utc": "2026-07-01T20:00:00.000Z",
             "team1": {
-                "name": "Maç 82",
-                "flag": "🌍"
+                "name": "Belçika",
+                "flag": "🇧🇪"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Senegal",
+                "flag": "🇸🇳"
             },
-            "group": "Eliminasyon",
-            "stadium": "Miami, ABD",
+            "group": "Son 32 Turu",
+            "stadium": "Lumen Field, Seattle, ABD",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
-            "id": "m83",
-            "date_utc": "2026-07-02T01:00:00.000Z",
+            "id": "m81",
+            "date_utc": "2026-07-02T00:00:00.000Z",
             "team1": {
-                "name": "Maç 83",
-                "flag": "🌍"
+                "name": "ABD",
+                "flag": "🇺🇸"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Bosna Hersek",
+                "flag": "🇧🇦"
             },
-            "group": "Eliminasyon",
-            "stadium": "Mexico City, Meksika",
+            "group": "Son 32 Turu",
+            "stadium": "Levi's Stadyumu, San Francisco, ABD",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
@@ -1415,83 +1398,100 @@
             "id": "m84",
             "date_utc": "2026-07-02T19:00:00.000Z",
             "team1": {
-                "name": "Maç 84",
-                "flag": "🌍"
+                "name": "İspanya",
+                "flag": "🇪🇸"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Avusturya",
+                "flag": "🇦🇹"
             },
-            "group": "Eliminasyon",
-            "stadium": "Vancouver, Kanada",
+            "group": "Son 32 Turu",
+            "stadium": "SoFi Stadyumu, Los Angeles, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m83",
+            "date_utc": "2026-07-02T23:00:00.000Z",
+            "team1": {
+                "name": "Portekiz",
+                "flag": "🇵🇹"
+            },
+            "team2": {
+                "name": "Hırvatistan",
+                "flag": "🇭🇷"
+            },
+            "group": "Son 32 Turu",
+            "stadium": "BMO Field, Toronto, Kanada",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
             "id": "m85",
-            "date_utc": "2026-07-02T22:00:00.000Z",
+            "date_utc": "2026-07-03T03:00:00.000Z",
             "team1": {
-                "name": "Maç 85",
-                "flag": "🌍"
+                "name": "İsviçre",
+                "flag": "🇨🇭"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Cezayir",
+                "flag": "🇩🇿"
             },
-            "group": "Eliminasyon",
-            "stadium": "Kansas City, ABD",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m86",
-            "date_utc": "2026-07-03T01:00:00.000Z",
-            "team1": {
-                "name": "Maç 86",
-                "flag": "🌍"
-            },
-            "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
-            },
-            "group": "Eliminasyon",
-            "stadium": "Seattle, ABD",
-            "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
-        },
-        {
-            "id": "m87",
-            "date_utc": "2026-07-03T19:00:00.000Z",
-            "team1": {
-                "name": "Maç 87",
-                "flag": "🌍"
-            },
-            "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
-            },
-            "group": "Eliminasyon",
-            "stadium": "Toronto, Kanada",
+            "group": "Son 32 Turu",
+            "stadium": "BC Place, Vancouver, Kanada",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
         },
         {
             "id": "m88",
-            "date_utc": "2026-07-03T22:00:00.000Z",
+            "date_utc": "2026-07-03T18:00:00.000Z",
             "team1": {
-                "name": "Maç 88",
-                "flag": "🌍"
+                "name": "Avustralya",
+                "flag": "🇦🇺"
             },
             "team2": {
-                "name": "Belirsiz",
-                "flag": "🌍"
+                "name": "Mısır",
+                "flag": "🇪🇬"
             },
-            "group": "Eliminasyon",
-            "stadium": "Philadelphia, ABD",
+            "group": "Son 32 Turu",
+            "stadium": "AT&T Stadyumu, Dallas, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m86",
+            "date_utc": "2026-07-03T22:00:00.000Z",
+            "team1": {
+                "name": "Arjantin",
+                "flag": "🇦🇷"
+            },
+            "team2": {
+                "name": "Yeşil Burun Adaları",
+                "flag": "🇨🇻"
+            },
+            "group": "Son 32 Turu",
+            "stadium": "Hard Rock Stadyumu, Miami, ABD",
+            "broadcaster": "TRT 1",
+            "score": null,
+            "status": null
+        },
+        {
+            "id": "m87",
+            "date_utc": "2026-07-04T01:30:00.000Z",
+            "team1": {
+                "name": "Kolombiya",
+                "flag": "🇨🇴"
+            },
+            "team2": {
+                "name": "Gana",
+                "flag": "🇬🇭"
+            },
+            "group": "Son 32 Turu",
+            "stadium": "Arrowhead Stadyumu, Kansas City, ABD",
             "broadcaster": "TRT 1",
             "score": null,
             "status": null
@@ -1500,14 +1500,14 @@
             "id": "m89",
             "date_utc": "2026-07-04T20:00:00.000Z",
             "team1": {
-                "name": "Maç 89",
+                "name": "73. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "75. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Son 16 Turu",
             "stadium": "Houston, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1517,14 +1517,14 @@
             "id": "m90",
             "date_utc": "2026-07-05T00:00:00.000Z",
             "team1": {
-                "name": "Maç 90",
+                "name": "74. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "77. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Son 16 Turu",
             "stadium": "New York New Jersey, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1534,14 +1534,14 @@
             "id": "m91",
             "date_utc": "2026-07-05T20:00:00.000Z",
             "team1": {
-                "name": "Maç 91",
+                "name": "76. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "78. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Son 16 Turu",
             "stadium": "Philadelphia, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1551,14 +1551,14 @@
             "id": "m92",
             "date_utc": "2026-07-06T00:00:00.000Z",
             "team1": {
-                "name": "Maç 92",
+                "name": "79. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "80. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Son 16 Turu",
             "stadium": "Mexico City, Meksika",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1568,14 +1568,14 @@
             "id": "m93",
             "date_utc": "2026-07-06T19:00:00.000Z",
             "team1": {
-                "name": "Maç 93",
+                "name": "83. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "84. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Son 16 Turu",
             "stadium": "Seattle, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1585,14 +1585,14 @@
             "id": "m94",
             "date_utc": "2026-07-06T22:00:00.000Z",
             "team1": {
-                "name": "Maç 94",
+                "name": "81. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "82. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Son 16 Turu",
             "stadium": "Vancouver, Kanada",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1602,14 +1602,14 @@
             "id": "m95",
             "date_utc": "2026-07-07T19:00:00.000Z",
             "team1": {
-                "name": "Maç 95",
+                "name": "86. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "88. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Son 16 Turu",
             "stadium": "Atlanta, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1619,14 +1619,14 @@
             "id": "m96",
             "date_utc": "2026-07-07T22:00:00.000Z",
             "team1": {
-                "name": "Maç 96",
+                "name": "85. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "87. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Son 16 Turu",
             "stadium": "Boston, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1636,14 +1636,14 @@
             "id": "m97",
             "date_utc": "2026-07-10T19:00:00.000Z",
             "team1": {
-                "name": "Çeyrek Final 1",
+                "name": "89. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "90. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Çeyrek Final",
             "stadium": "Boston, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1653,14 +1653,14 @@
             "id": "m98",
             "date_utc": "2026-07-10T22:00:00.000Z",
             "team1": {
-                "name": "Çeyrek Final 2",
+                "name": "93. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "94. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Çeyrek Final",
             "stadium": "Los Angeles, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1670,14 +1670,14 @@
             "id": "m99",
             "date_utc": "2026-07-11T19:00:00.000Z",
             "team1": {
-                "name": "Çeyrek Final 3",
+                "name": "91. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "92. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Çeyrek Final",
             "stadium": "Miami, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1687,14 +1687,14 @@
             "id": "m100",
             "date_utc": "2026-07-11T22:00:00.000Z",
             "team1": {
-                "name": "Çeyrek Final 4",
+                "name": "95. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "96. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Çeyrek Final",
             "stadium": "Kansas City, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1704,14 +1704,14 @@
             "id": "m101",
             "date_utc": "2026-07-15T00:00:00.000Z",
             "team1": {
-                "name": "1. Yarı Final",
+                "name": "97. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "98. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Yarı Final",
             "stadium": "Dallas - AT&T Stadyumu, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1721,14 +1721,14 @@
             "id": "m102",
             "date_utc": "2026-07-16T00:00:00.000Z",
             "team1": {
-                "name": "2. Yarı Final",
+                "name": "99. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "100. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Yarı Final",
             "stadium": "Atlanta - Mercedes-Benz Stadyumu, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1738,14 +1738,14 @@
             "id": "m103",
             "date_utc": "2026-07-18T20:00:00.000Z",
             "team1": {
-                "name": "Üçüncülük / Bronz Madalya Maçı",
+                "name": "101. Maçın Mağlubu",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "102. Maçın Mağlubu",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Üçüncülük Maçı",
             "stadium": "Miami - Hard Rock Stadyumu, ABD",
             "broadcaster": "TRT 1",
             "score": null,
@@ -1755,14 +1755,14 @@
             "id": "m104",
             "date_utc": "2026-07-19T20:00:00.000Z",
             "team1": {
-                "name": "Dünya Kupası Final Maçı",
+                "name": "101. Maçın Galibi",
                 "flag": "🌍"
             },
             "team2": {
-                "name": "Belirsiz",
+                "name": "102. Maçın Galibi",
                 "flag": "🌍"
             },
-            "group": "Eliminasyon",
+            "group": "Final",
             "stadium": "New York New Jersey - MetLife Stadyumu, ABD",
             "broadcaster": "TRT 1",
             "score": null,
