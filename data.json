@@ -1238,8 +1238,8 @@
             "group": "Son 32 Turu",
             "stadium": "SoFi Stadyumu, Los Angeles, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-0",
+            "status": "finished"
         },
         {
             "id": "m76",
@@ -1500,8 +1500,8 @@
             "id": "m89",
             "date_utc": "2026-07-04T20:00:00.000Z",
             "team1": {
-                "name": "73. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Kanada",
+                "flag": "🇨🇦"
             },
             "team2": {
                 "name": "75. Maçın Galibi",
