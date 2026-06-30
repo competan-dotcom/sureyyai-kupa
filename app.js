@@ -183,9 +183,19 @@ function createMatchCard(match) {
 
     let centerContent = `<span class="match-time">${timeStr}</span>`;
     if (match.score) {
+        let scoreHtml = `<span class="match-time" style="font-size: 42px;">${match.score}</span>`;
+        if (match.score.includes('(')) {
+            const parts = match.score.split('(');
+            const mainScore = parts[0].trim();
+            const penaltyScore = '(' + parts.slice(1).join('(').trim();
+            scoreHtml = `
+                <span class="match-time" style="font-size: 42px; line-height: 1;">${mainScore}</span>
+                <span class="match-penalty" style="font-size: 14px; color: #f43f5e; font-weight: 600; margin-top: 4px; display: block; white-space: nowrap;">${penaltyScore}</span>
+            `;
+        }
         centerContent = `
-            <span class="match-time" style="font-size: 42px;">${match.score}</span>
-            <span class="match-date-badge" style="color: #64748b;">MAÇ SONUCU</span>
+            ${scoreHtml}
+            <span class="match-date-badge" style="color: #64748b; margin-top: 4px;">MAÇ SONUCU</span>
         `;
     }
 
