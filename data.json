@@ -1255,8 +1255,8 @@
             "group": "Son 32 Turu",
             "stadium": "NRG Stadyumu, Houston, ABD",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "2-1",
+            "status": "finished"
         },
         {
             "id": "m74",
@@ -1272,8 +1272,8 @@
             "group": "Son 32 Turu",
             "stadium": "Gillette Stadyumu, Boston, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-1 (3-4 Pen.)",
+            "status": "finished"
         },
         {
             "id": "m75",
@@ -1289,8 +1289,8 @@
             "group": "Son 32 Turu",
             "stadium": "Estadio BBVA, Monterrey, Meksika",
             "broadcaster": "TRT Spor",
-            "score": null,
-            "status": null
+            "score": "1-1 (2-3 Pen.)",
+            "status": "finished"
         },
         {
             "id": "m78",
@@ -1504,8 +1504,8 @@
                 "flag": "🇨🇦"
             },
             "team2": {
-                "name": "75. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Fas",
+                "flag": "🇲🇦"
             },
             "group": "Son 16 Turu",
             "stadium": "Houston, ABD",
@@ -1517,8 +1517,8 @@
             "id": "m90",
             "date_utc": "2026-07-05T00:00:00.000Z",
             "team1": {
-                "name": "74. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Paraguay",
+                "flag": "🇵🇾"
             },
             "team2": {
                 "name": "77. Maçın Galibi",
@@ -1534,8 +1534,8 @@
             "id": "m91",
             "date_utc": "2026-07-05T20:00:00.000Z",
             "team1": {
-                "name": "76. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Brezilya",
+                "flag": "🇧🇷"
             },
             "team2": {
                 "name": "78. Maçın Galibi",
@@ -1807,6 +1807,12 @@
             "goals": 3
         },
         {
+            "name": "Cody Gakpo",
+            "team": "Hollanda",
+            "flag": "🇳🇱",
+            "goals": 3
+        },
+        {
             "name": "Deniz Undav",
             "team": "Almanya",
             "flag": "🇩🇪",
@@ -1849,6 +1855,12 @@
             "goals": 3
         },
         {
+            "name": "Kai Havertz",
+            "team": "Almanya",
+            "flag": "🇩🇪",
+            "goals": 3
+        },
+        {
             "name": "Matheus Cunha",
             "team": "Brezilya",
             "flag": "🇧🇷",
@@ -1870,12 +1882,6 @@
             "name": "Ayase Ueda",
             "team": "Japonya",
             "flag": "🇯🇵",
-            "goals": 2
-        },
-        {
-            "name": "Cody Gakpo",
-            "team": "Hollanda",
-            "flag": "🇳🇱",
             "goals": 2
         },
         {
@@ -1924,12 +1930,6 @@
             "name": "Julián Quiñones",
             "team": "Meksika",
             "flag": "🇲🇽",
-            "goals": 2
-        },
-        {
-            "name": "Kai Havertz",
-            "team": "Almanya",
-            "flag": "🇩🇪",
             "goals": 2
         },
         {
