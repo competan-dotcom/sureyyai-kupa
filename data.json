@@ -1306,8 +1306,8 @@
             "group": "Son 32 Turu",
             "stadium": "AT&T Stadyumu, Dallas, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-2",
+            "status": "finished"
         },
         {
             "id": "m77",
@@ -1323,8 +1323,8 @@
             "group": "Son 32 Turu",
             "stadium": "MetLife Stadyumu, New York/New Jersey, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-0",
+            "status": "finished"
         },
         {
             "id": "m79",
@@ -1340,8 +1340,8 @@
             "group": "Son 32 Turu",
             "stadium": "Estadio Azteca, Mexico City, Meksika",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-0",
+            "status": "finished"
         },
         {
             "id": "m80",
@@ -1521,8 +1521,8 @@
                 "flag": "🇵🇾"
             },
             "team2": {
-                "name": "77. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Fransa",
+                "flag": "🇫🇷"
             },
             "group": "Son 16 Turu",
             "stadium": "New York New Jersey, ABD",
@@ -1538,8 +1538,8 @@
                 "flag": "🇧🇷"
             },
             "team2": {
-                "name": "78. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Norveç",
+                "flag": "🇳🇴"
             },
             "group": "Son 16 Turu",
             "stadium": "Philadelphia, ABD",
@@ -1551,8 +1551,8 @@
             "id": "m92",
             "date_utc": "2026-07-06T00:00:00.000Z",
             "team1": {
-                "name": "79. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Meksika",
+                "flag": "🇲🇽"
             },
             "team2": {
                 "name": "80. Maçın Galibi",
@@ -1771,6 +1771,12 @@
     ],
     "topScorers": [
         {
+            "name": "Kylian Mbappé",
+            "team": "Fransa",
+            "flag": "🇫🇷",
+            "goals": 6
+        },
+        {
             "name": "Lionel Messi",
             "team": "Arjantin",
             "flag": "🇦🇷",
@@ -1780,13 +1786,7 @@
             "name": "Erling Haaland",
             "team": "Norveç",
             "flag": "🇳🇴",
-            "goals": 4
-        },
-        {
-            "name": "Kylian Mbappé",
-            "team": "Fransa",
-            "flag": "🇫🇷",
-            "goals": 4
+            "goals": 5
         },
         {
             "name": "Ousmane Dembélé",
@@ -1852,6 +1852,12 @@
             "name": "Jonathan David",
             "team": "Kanada",
             "flag": "🇨🇦",
+            "goals": 3
+        },
+        {
+            "name": "Julián Quiñones",
+            "team": "Meksika",
+            "flag": "🇲🇽",
             "goals": 3
         },
         {
@@ -1927,12 +1933,6 @@
             "goals": 2
         },
         {
-            "name": "Julián Quiñones",
-            "team": "Meksika",
-            "flag": "🇲🇽",
-            "goals": 2
-        },
-        {
             "name": "Leandro Trossard",
             "team": "Belçika",
             "flag": "🇧🇪",
@@ -1972,6 +1972,12 @@
             "name": "Ramin Rezaeian",
             "team": "İran",
             "flag": "🇮🇷",
+            "goals": 2
+        },
+        {
+            "name": "Raúl Jiménez",
+            "team": "Meksika",
+            "flag": "🇲🇽",
             "goals": 2
         },
         {
