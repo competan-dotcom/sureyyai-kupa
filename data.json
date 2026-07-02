@@ -1357,8 +1357,8 @@
             "group": "Son 32 Turu",
             "stadium": "Mercedes-Benz Stadyumu, Atlanta, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-1",
+            "status": "finished"
         },
         {
             "id": "m82",
@@ -1374,8 +1374,8 @@
             "group": "Son 32 Turu",
             "stadium": "Lumen Field, Seattle, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-2 (uz.)",
+            "status": "finished"
         },
         {
             "id": "m81",
@@ -1391,8 +1391,8 @@
             "group": "Son 32 Turu",
             "stadium": "Levi's Stadyumu, San Francisco, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-0",
+            "status": "finished"
         },
         {
             "id": "m84",
@@ -1555,8 +1555,8 @@
                 "flag": "🇲🇽"
             },
             "team2": {
-                "name": "80. Maçın Galibi",
-                "flag": "🌍"
+                "name": "İngiltere",
+                "flag": "🏴‍󠁢󠁥󠁮󠁧󠁿"
             },
             "group": "Son 16 Turu",
             "stadium": "Mexico City, Meksika",
@@ -1585,12 +1585,12 @@
             "id": "m94",
             "date_utc": "2026-07-06T22:00:00.000Z",
             "team1": {
-                "name": "81. Maçın Galibi",
-                "flag": "🌍"
+                "name": "ABD",
+                "flag": "🇺🇸"
             },
             "team2": {
-                "name": "82. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Belçika",
+                "flag": "🇧🇪"
             },
             "group": "Son 16 Turu",
             "stadium": "Vancouver, Kanada",
@@ -1789,6 +1789,18 @@
             "goals": 5
         },
         {
+            "name": "Harry Kane",
+            "team": "İngiltere",
+            "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+            "goals": 5
+        },
+        {
+            "name": "Ismaila Sarr",
+            "team": "Senegal",
+            "flag": "🇸🇳",
+            "goals": 4
+        },
+        {
             "name": "Ousmane Dembélé",
             "team": "Fransa",
             "flag": "🇫🇷",
@@ -1825,21 +1837,15 @@
             "goals": 3
         },
         {
-            "name": "Harry Kane",
-            "team": "İngiltere",
-            "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+            "name": "Folarin Balogun",
+            "team": "ABD",
+            "flag": "🇺🇸",
             "goals": 3
         },
         {
             "name": "Ismael Saibari",
             "team": "Fas",
             "flag": "🇲🇦",
-            "goals": 3
-        },
-        {
-            "name": "Ismaila Sarr",
-            "team": "Senegal",
-            "flag": "🇸🇳",
             "goals": 3
         },
         {
@@ -1927,12 +1933,6 @@
             "goals": 2
         },
         {
-            "name": "Folarin Balogun",
-            "team": "ABD",
-            "flag": "🇺🇸",
-            "goals": 2
-        },
-        {
             "name": "Leandro Trossard",
             "team": "Belçika",
             "flag": "🇧🇪",
@@ -1987,6 +1987,12 @@
             "goals": 2
         },
         {
+            "name": "Romelu Lukaku",
+            "team": "Belçika",
+            "flag": "🇧🇪",
+            "goals": 2
+        },
+        {
             "name": "Ruben Vargas",
             "team": "İsviçre",
             "flag": "🇨🇭",
@@ -1996,6 +2002,12 @@
             "name": "Yasin Ayari",
             "team": "İsveç",
             "flag": "🇸🇪",
+            "goals": 2
+        },
+        {
+            "name": "Youri Tielemans",
+            "team": "Belçika",
+            "flag": "🇧🇪",
             "goals": 2
         }
     ]
