@@ -1408,8 +1408,8 @@
             "group": "Son 32 Turu",
             "stadium": "SoFi Stadyumu, Los Angeles, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-0",
+            "status": "finished"
         },
         {
             "id": "m83",
@@ -1425,8 +1425,8 @@
             "group": "Son 32 Turu",
             "stadium": "BMO Field, Toronto, Kanada",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-1",
+            "status": "finished"
         },
         {
             "id": "m85",
@@ -1442,8 +1442,8 @@
             "group": "Son 32 Turu",
             "stadium": "BC Place, Vancouver, Kanada",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-0",
+            "status": "finished"
         },
         {
             "id": "m88",
@@ -1568,12 +1568,12 @@
             "id": "m93",
             "date_utc": "2026-07-06T19:00:00.000Z",
             "team1": {
-                "name": "83. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Portekiz",
+                "flag": "🇵🇹"
             },
             "team2": {
-                "name": "84. Maçın Galibi",
-                "flag": "🌍"
+                "name": "İspanya",
+                "flag": "🇪🇸"
             },
             "group": "Son 16 Turu",
             "stadium": "Seattle, ABD",
@@ -1619,8 +1619,8 @@
             "id": "m96",
             "date_utc": "2026-07-07T22:00:00.000Z",
             "team1": {
-                "name": "85. Maçın Galibi",
-                "flag": "🌍"
+                "name": "İsviçre",
+                "flag": "🇨🇭"
             },
             "team2": {
                 "name": "87. Maçın Galibi",
@@ -1801,6 +1801,12 @@
             "goals": 4
         },
         {
+            "name": "Mikel Oyarzabal",
+            "team": "İspanya",
+            "flag": "🇪🇸",
+            "goals": 4
+        },
+        {
             "name": "Ousmane Dembélé",
             "team": "Fransa",
             "flag": "🇫🇷",
@@ -1822,6 +1828,12 @@
             "name": "Cody Gakpo",
             "team": "Hollanda",
             "flag": "🇳🇱",
+            "goals": 3
+        },
+        {
+            "name": "Cristiano Ronaldo",
+            "team": "Portekiz",
+            "flag": "🇵🇹",
             "goals": 3
         },
         {
@@ -1897,12 +1909,6 @@
             "goals": 2
         },
         {
-            "name": "Cristiano Ronaldo",
-            "team": "Portekiz",
-            "flag": "🇵🇹",
-            "goals": 2
-        },
-        {
             "name": "Crysencio Summerville",
             "team": "Hollanda",
             "flag": "🇳🇱",
@@ -1948,12 +1954,6 @@
             "name": "Maxi Araújo",
             "team": "Uruguay",
             "flag": "🇺🇾",
-            "goals": 2
-        },
-        {
-            "name": "Mikel Oyarzabal",
-            "team": "İspanya",
-            "flag": "🇪🇸",
             "goals": 2
         },
         {
