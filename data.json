@@ -1459,8 +1459,8 @@
             "group": "Son 32 Turu",
             "stadium": "AT&T Stadyumu, Dallas, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-1 (2-4 Pen.)",
+            "status": "finished"
         },
         {
             "id": "m86",
@@ -1476,8 +1476,8 @@
             "group": "Son 32 Turu",
             "stadium": "Hard Rock Stadyumu, Miami, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-2 (uz.)",
+            "status": "finished"
         },
         {
             "id": "m87",
@@ -1493,8 +1493,8 @@
             "group": "Son 32 Turu",
             "stadium": "Arrowhead Stadyumu, Kansas City, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-0",
+            "status": "finished"
         },
         {
             "id": "m89",
@@ -1510,8 +1510,8 @@
             "group": "Son 16 Turu",
             "stadium": "Houston, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-3",
+            "status": "finished"
         },
         {
             "id": "m90",
@@ -1527,8 +1527,8 @@
             "group": "Son 16 Turu",
             "stadium": "New York New Jersey, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-1",
+            "status": "finished"
         },
         {
             "id": "m91",
@@ -1602,12 +1602,12 @@
             "id": "m95",
             "date_utc": "2026-07-07T19:00:00.000Z",
             "team1": {
-                "name": "86. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Arjantin",
+                "flag": "🇦🇷"
             },
             "team2": {
-                "name": "88. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Mısır",
+                "flag": "🇪🇬"
             },
             "group": "Son 16 Turu",
             "stadium": "Atlanta, ABD",
@@ -1623,8 +1623,8 @@
                 "flag": "🇨🇭"
             },
             "team2": {
-                "name": "87. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Kolombiya",
+                "flag": "🇨🇴"
             },
             "group": "Son 16 Turu",
             "stadium": "Boston, ABD",
@@ -1636,12 +1636,12 @@
             "id": "m97",
             "date_utc": "2026-07-10T19:00:00.000Z",
             "team1": {
-                "name": "89. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Fas",
+                "flag": "🇲🇦"
             },
             "team2": {
-                "name": "90. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Fransa",
+                "flag": "🇫🇷"
             },
             "group": "Çeyrek Final",
             "stadium": "Boston, ABD",
@@ -1774,13 +1774,13 @@
             "name": "Kylian Mbappé",
             "team": "Fransa",
             "flag": "🇫🇷",
-            "goals": 6
+            "goals": 7
         },
         {
             "name": "Lionel Messi",
             "team": "Arjantin",
             "flag": "🇦🇷",
-            "goals": 6
+            "goals": 7
         },
         {
             "name": "Erling Haaland",
@@ -1909,6 +1909,12 @@
             "goals": 2
         },
         {
+            "name": "Azzedine Ounahi",
+            "team": "Fas",
+            "flag": "🇲🇦",
+            "goals": 2
+        },
+        {
             "name": "Crysencio Summerville",
             "team": "Hollanda",
             "flag": "🇳🇱",
@@ -1930,6 +1936,12 @@
             "name": "Daniel Muñoz",
             "team": "Kolombiya",
             "flag": "🇨🇴",
+            "goals": 2
+        },
+        {
+            "name": "Emam Ashour",
+            "team": "Mısır",
+            "flag": "🇪🇬",
             "goals": 2
         },
         {
