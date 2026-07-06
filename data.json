@@ -1544,8 +1544,8 @@
             "group": "Son 16 Turu",
             "stadium": "Philadelphia, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-2",
+            "status": "finished"
         },
         {
             "id": "m92",
@@ -1561,8 +1561,8 @@
             "group": "Son 16 Turu",
             "stadium": "Mexico City, Meksika",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-3",
+            "status": "finished"
         },
         {
             "id": "m93",
@@ -1670,12 +1670,12 @@
             "id": "m99",
             "date_utc": "2026-07-11T19:00:00.000Z",
             "team1": {
-                "name": "91. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Norveç",
+                "flag": "🇳🇴"
             },
             "team2": {
-                "name": "92. Maçın Galibi",
-                "flag": "🌍"
+                "name": "İngiltere",
+                "flag": "🏴‍󠁢󠁥󠁮󠁧󠁿"
             },
             "group": "Çeyrek Final",
             "stadium": "Miami, ABD",
@@ -1771,6 +1771,12 @@
     ],
     "topScorers": [
         {
+            "name": "Erling Haaland",
+            "team": "Norveç",
+            "flag": "🇳🇴",
+            "goals": 7
+        },
+        {
             "name": "Kylian Mbappé",
             "team": "Fransa",
             "flag": "🇫🇷",
@@ -1783,21 +1789,21 @@
             "goals": 7
         },
         {
-            "name": "Erling Haaland",
-            "team": "Norveç",
-            "flag": "🇳🇴",
-            "goals": 5
-        },
-        {
             "name": "Harry Kane",
             "team": "İngiltere",
             "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-            "goals": 5
+            "goals": 6
         },
         {
             "name": "Ismaila Sarr",
             "team": "Senegal",
             "flag": "🇸🇳",
+            "goals": 4
+        },
+        {
+            "name": "Julián Quiñones",
+            "team": "Meksika",
+            "flag": "🇲🇽",
             "goals": 4
         },
         {
@@ -1873,9 +1879,9 @@
             "goals": 3
         },
         {
-            "name": "Julián Quiñones",
-            "team": "Meksika",
-            "flag": "🇲🇽",
+            "name": "Jude Bellingham",
+            "team": "İngiltere",
+            "flag": "🏴‍󠁢󠁥󠁮󠁧󠁿",
             "goals": 3
         },
         {
@@ -1888,6 +1894,12 @@
             "name": "Matheus Cunha",
             "team": "Brezilya",
             "flag": "🇧🇷",
+            "goals": 3
+        },
+        {
+            "name": "Raúl Jiménez",
+            "team": "Meksika",
+            "flag": "🇲🇽",
             "goals": 3
         },
         {
@@ -1984,12 +1996,6 @@
             "name": "Ramin Rezaeian",
             "team": "İran",
             "flag": "🇮🇷",
-            "goals": 2
-        },
-        {
-            "name": "Raúl Jiménez",
-            "team": "Meksika",
-            "flag": "🇲🇽",
             "goals": 2
         },
         {
