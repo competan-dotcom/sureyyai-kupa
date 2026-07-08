@@ -1612,8 +1612,8 @@
             "group": "Son 16 Turu",
             "stadium": "Atlanta, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-2",
+            "status": "finished"
         },
         {
             "id": "m96",
@@ -1629,8 +1629,8 @@
             "group": "Son 16 Turu",
             "stadium": "Boston, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-0 (4-3 Pen.)",
+            "status": "finished"
         },
         {
             "id": "m97",
@@ -1687,12 +1687,12 @@
             "id": "m100",
             "date_utc": "2026-07-12T01:00:00.000Z",
             "team1": {
-                "name": "95. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Arjantin",
+                "flag": "🇦🇷"
             },
             "team2": {
-                "name": "96. Maçın Galibi",
-                "flag": "🌍"
+                "name": "İsviçre",
+                "flag": "🇨🇭"
             },
             "group": "Çeyrek Final",
             "stadium": "Kansas City, ABD",
@@ -1771,6 +1771,12 @@
     ],
     "topScorers": [
         {
+            "name": "Lionel Messi",
+            "team": "Arjantin",
+            "flag": "🇦🇷",
+            "goals": 8
+        },
+        {
             "name": "Erling Haaland",
             "team": "Norveç",
             "flag": "🇳🇴",
@@ -1780,12 +1786,6 @@
             "name": "Kylian Mbappé",
             "team": "Fransa",
             "flag": "🇫🇷",
-            "goals": 7
-        },
-        {
-            "name": "Lionel Messi",
-            "team": "Arjantin",
-            "flag": "🇦🇷",
             "goals": 7
         },
         {
