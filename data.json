@@ -1646,8 +1646,8 @@
             "group": "Çeyrek Final",
             "stadium": "Boston, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-0",
+            "status": "finished"
         },
         {
             "id": "m98",
@@ -1663,8 +1663,8 @@
             "group": "Çeyrek Final",
             "stadium": "Los Angeles, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "2-1",
+            "status": "finished"
         },
         {
             "id": "m99",
@@ -1704,12 +1704,12 @@
             "id": "m101",
             "date_utc": "2026-07-14T19:00:00.000Z",
             "team1": {
-                "name": "97. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Fransa",
+                "flag": "🇫🇷"
             },
             "team2": {
-                "name": "98. Maçın Galibi",
-                "flag": "🌍"
+                "name": "İspanya",
+                "flag": "🇪🇸"
             },
             "group": "Yarı Final",
             "stadium": "Dallas - AT&T Stadyumu, ABD",
@@ -1771,6 +1771,12 @@
     ],
     "topScorers": [
         {
+            "name": "Kylian Mbappé",
+            "team": "Fransa",
+            "flag": "🇫🇷",
+            "goals": 8
+        },
+        {
             "name": "Lionel Messi",
             "team": "Arjantin",
             "flag": "🇦🇷",
@@ -1783,16 +1789,16 @@
             "goals": 7
         },
         {
-            "name": "Kylian Mbappé",
-            "team": "Fransa",
-            "flag": "🇫🇷",
-            "goals": 7
-        },
-        {
             "name": "Harry Kane",
             "team": "İngiltere",
             "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "goals": 6
+        },
+        {
+            "name": "Ousmane Dembélé",
+            "team": "Fransa",
+            "flag": "🇫🇷",
+            "goals": 5
         },
         {
             "name": "Ismaila Sarr",
@@ -1810,12 +1816,6 @@
             "name": "Mikel Oyarzabal",
             "team": "İspanya",
             "flag": "🇪🇸",
-            "goals": 4
-        },
-        {
-            "name": "Ousmane Dembélé",
-            "team": "Fransa",
-            "flag": "🇫🇷",
             "goals": 4
         },
         {
