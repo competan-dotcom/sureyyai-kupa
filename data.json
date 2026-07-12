@@ -1680,8 +1680,8 @@
             "group": "Çeyrek Final",
             "stadium": "Miami, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-2 (uz.)",
+            "status": "finished"
         },
         {
             "id": "m100",
@@ -1697,8 +1697,8 @@
             "group": "Çeyrek Final",
             "stadium": "Kansas City, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "3-1 (uz.)",
+            "status": "finished"
         },
         {
             "id": "m101",
@@ -1721,12 +1721,12 @@
             "id": "m102",
             "date_utc": "2026-07-15T19:00:00.000Z",
             "team1": {
-                "name": "99. Maçın Galibi",
-                "flag": "🌍"
+                "name": "İngiltere",
+                "flag": "🏴‍󠁢󠁥󠁮󠁧󠁿"
             },
             "team2": {
-                "name": "100. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Arjantin",
+                "flag": "🇦🇷"
             },
             "group": "Yarı Final",
             "stadium": "Atlanta - Mercedes-Benz Stadyumu, ABD",
@@ -1793,6 +1793,12 @@
             "team": "İngiltere",
             "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "goals": 6
+        },
+        {
+            "name": "Jude Bellingham",
+            "team": "İngiltere",
+            "flag": "🏴‍󠁢󠁥󠁮󠁧󠁿",
+            "goals": 5
         },
         {
             "name": "Ousmane Dembélé",
