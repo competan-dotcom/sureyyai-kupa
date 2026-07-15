@@ -1714,8 +1714,8 @@
             "group": "Yarı Final",
             "stadium": "Dallas - AT&T Stadyumu, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "0-2",
+            "status": "finished"
         },
         {
             "id": "m102",
@@ -1738,8 +1738,8 @@
             "id": "m103",
             "date_utc": "2026-07-18T21:00:00.000Z",
             "team1": {
-                "name": "101. Maçın Mağlubu",
-                "flag": "🌍"
+                "name": "Fransa",
+                "flag": "🇫🇷"
             },
             "team2": {
                 "name": "102. Maçın Mağlubu",
@@ -1755,8 +1755,8 @@
             "id": "m104",
             "date_utc": "2026-07-19T19:00:00.000Z",
             "team1": {
-                "name": "101. Maçın Galibi",
-                "flag": "🌍"
+                "name": "İspanya",
+                "flag": "🇪🇸"
             },
             "team2": {
                 "name": "102. Maçın Galibi",
@@ -1801,6 +1801,12 @@
             "goals": 5
         },
         {
+            "name": "Mikel Oyarzabal",
+            "team": "İspanya",
+            "flag": "🇪🇸",
+            "goals": 5
+        },
+        {
             "name": "Ousmane Dembélé",
             "team": "Fransa",
             "flag": "🇫🇷",
@@ -1816,12 +1822,6 @@
             "name": "Julián Quiñones",
             "team": "Meksika",
             "flag": "🇲🇽",
-            "goals": 4
-        },
-        {
-            "name": "Mikel Oyarzabal",
-            "team": "İspanya",
-            "flag": "🇪🇸",
             "goals": 4
         },
         {
