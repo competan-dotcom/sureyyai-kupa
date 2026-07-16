@@ -1731,8 +1731,8 @@
             "group": "Yarı Final",
             "stadium": "Atlanta - Mercedes-Benz Stadyumu, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "1-2",
+            "status": "finished"
         },
         {
             "id": "m103",
@@ -1742,8 +1742,8 @@
                 "flag": "🇫🇷"
             },
             "team2": {
-                "name": "102. Maçın Mağlubu",
-                "flag": "🌍"
+                "name": "İngiltere",
+                "flag": "🏴‍󠁢󠁥󠁮󠁧󠁿"
             },
             "group": "Üçüncülük Maçı",
             "stadium": "Miami - Hard Rock Stadyumu, ABD",
@@ -1759,8 +1759,8 @@
                 "flag": "🇪🇸"
             },
             "team2": {
-                "name": "102. Maçın Galibi",
-                "flag": "🌍"
+                "name": "Arjantin",
+                "flag": "🇦🇷"
             },
             "group": "Final",
             "stadium": "New York New Jersey - MetLife Stadyumu, ABD",
