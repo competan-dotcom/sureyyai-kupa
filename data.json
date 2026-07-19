@@ -1748,8 +1748,8 @@
             "group": "Üçüncülük Maçı",
             "stadium": "Miami - Hard Rock Stadyumu, ABD",
             "broadcaster": "TRT 1",
-            "score": null,
-            "status": null
+            "score": "4-6",
+            "status": "finished"
         },
         {
             "id": "m104",
@@ -1774,7 +1774,7 @@
             "name": "Kylian Mbappé",
             "team": "Fransa",
             "flag": "🇫🇷",
-            "goals": 8
+            "goals": 10
         },
         {
             "name": "Lionel Messi",
@@ -1798,18 +1798,18 @@
             "name": "Jude Bellingham",
             "team": "İngiltere",
             "flag": "🏴‍󠁢󠁥󠁮󠁧󠁿",
-            "goals": 5
-        },
-        {
-            "name": "Mikel Oyarzabal",
-            "team": "İspanya",
-            "flag": "🇪🇸",
-            "goals": 5
+            "goals": 6
         },
         {
             "name": "Ousmane Dembélé",
             "team": "Fransa",
             "flag": "🇫🇷",
+            "goals": 6
+        },
+        {
+            "name": "Mikel Oyarzabal",
+            "team": "İspanya",
+            "flag": "🇪🇸",
             "goals": 5
         },
         {
